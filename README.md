@@ -7,6 +7,6 @@ TODO:
 - [x] Items
 - [ ] Verify items
 - [ ] Fix any broken items
-- [ ] Blocks
+- [x] Blocks
 - [ ] Verify blocks
 - [ ] Fix any broken blocks
