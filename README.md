@@ -1,0 +1,2 @@
+# BetterEnd Resource Fix
+ 
