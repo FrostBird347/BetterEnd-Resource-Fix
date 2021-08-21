@@ -40,6 +40,14 @@ done <./MissingResources.txt
 while read name
 do
 	textureName=$(sed 's/.\{7\}$//' <<< "$name")
+	if [[ $textureName == *_tree ]];
+	then
+		textureName=${textureName}_planks
+	fi
+	if [[ $textureName == *_bone ]];
+	then
+		textureName=${textureName}_block
+	fi
 	printf "{\n\
   \"variants\": {\n\
     \"facing=east,half=bottom,shape=inner_left\": {\n\
