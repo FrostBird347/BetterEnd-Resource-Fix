@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/hydralux_petal_block_cyan"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/hydralux_petal_block_cyan"
+    }
+  }
+}

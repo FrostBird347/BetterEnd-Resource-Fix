@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/lacugrove_plate"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/lacugrove_plate"
+    }
+  }
+}

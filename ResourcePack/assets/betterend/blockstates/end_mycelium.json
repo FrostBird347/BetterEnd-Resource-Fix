@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/end_mycelium"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/end_mycelium"
+    }
+  }
+}

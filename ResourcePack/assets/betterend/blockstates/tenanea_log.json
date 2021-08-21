@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/tenanea_log"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/tenanea_log"
+    }
+  }
+}

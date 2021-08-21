@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/umbralith_tiles"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/umbralith_tiles"
+    }
+  }
+}

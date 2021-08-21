@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/lacugrove_trapdoor"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/lacugrove_trapdoor"
+    }
+  }
+}

@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/lacugrove_sapling"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/lacugrove_sapling"
+    }
+  }
+}

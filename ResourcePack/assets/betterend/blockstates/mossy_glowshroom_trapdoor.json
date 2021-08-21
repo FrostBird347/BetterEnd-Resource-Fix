@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/mossy_glowshroom_trapdoor"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/mossy_glowshroom_trapdoor"
+    }
+  }
+}

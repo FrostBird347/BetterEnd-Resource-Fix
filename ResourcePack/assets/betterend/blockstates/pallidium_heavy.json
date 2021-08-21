@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/pallidium_heavy"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/pallidium_heavy"
+    }
+  }
+}

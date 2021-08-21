@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/chorus_nylium_path"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/chorus_nylium_path"
+    }
+  }
+}

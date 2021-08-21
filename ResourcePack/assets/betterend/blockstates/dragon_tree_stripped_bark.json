@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/dragon_tree_stripped_bark"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/dragon_tree_stripped_bark"
+    }
+  }
+}

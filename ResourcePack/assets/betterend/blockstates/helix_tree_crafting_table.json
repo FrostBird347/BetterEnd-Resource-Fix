@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/helix_tree_crafting_table"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/helix_tree_crafting_table"
+    }
+  }
+}

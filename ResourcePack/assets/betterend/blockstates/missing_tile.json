@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/missing_tile"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/missing_tile"
+    }
+  }
+}

@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/tenanea_crafting_table"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/tenanea_crafting_table"
+    }
+  }
+}

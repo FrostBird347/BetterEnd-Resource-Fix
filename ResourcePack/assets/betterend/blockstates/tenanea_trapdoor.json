@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/tenanea_trapdoor"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/tenanea_trapdoor"
+    }
+  }
+}

@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/violecite"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/violecite"
+    }
+  }
+}

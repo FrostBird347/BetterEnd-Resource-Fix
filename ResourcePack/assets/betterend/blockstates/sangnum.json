@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/sangnum"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/sangnum"
+    }
+  }
+}

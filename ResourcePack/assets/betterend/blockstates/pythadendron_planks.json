@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/pythadendron_planks"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/pythadendron_planks"
+    }
+  }
+}

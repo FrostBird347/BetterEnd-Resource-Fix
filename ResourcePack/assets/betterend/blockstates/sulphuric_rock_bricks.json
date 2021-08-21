@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/sulphuric_rock_bricks"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/sulphuric_rock_bricks"
+    }
+  }
+}

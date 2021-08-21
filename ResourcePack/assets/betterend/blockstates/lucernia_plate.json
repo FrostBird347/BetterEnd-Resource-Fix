@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/lucernia_plate"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/lucernia_plate"
+    }
+  }
+}

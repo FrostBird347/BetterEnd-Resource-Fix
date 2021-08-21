@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/cave_moss_path"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/cave_moss_path"
+    }
+  }
+}

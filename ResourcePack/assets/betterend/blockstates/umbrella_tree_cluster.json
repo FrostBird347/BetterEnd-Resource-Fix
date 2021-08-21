@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/umbrella_tree_cluster"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/umbrella_tree_cluster"
+    }
+  }
+}

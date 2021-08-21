@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/smaragdant_crystal"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/smaragdant_crystal"
+    }
+  }
+}

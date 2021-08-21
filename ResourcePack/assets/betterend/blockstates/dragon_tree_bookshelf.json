@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/dragon_tree_bookshelf"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/dragon_tree_bookshelf"
+    }
+  }
+}

@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/helix_tree_log"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/helix_tree_log"
+    }
+  }
+}

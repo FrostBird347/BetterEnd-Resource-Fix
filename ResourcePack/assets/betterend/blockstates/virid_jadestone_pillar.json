@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/virid_jadestone_pillar"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/virid_jadestone_pillar"
+    }
+  }
+}

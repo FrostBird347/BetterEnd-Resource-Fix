@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/pink_moss"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/pink_moss"
+    }
+  }
+}

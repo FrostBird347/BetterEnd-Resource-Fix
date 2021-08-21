@@ -4,11 +4,11 @@ while read p; do
 	if [[ $p == assets/betterend/blockstates/* ]];
 	then
 		printf "{\n\
-  \"variants\": {\
-    \"\": {\
-      \"model\": \"betterend:block/$name\"\
-    }\
-  }\
+  \"variants\": {\n\
+    \"\": {\n\
+      \"model\": \"betterend:block/$name\"\n\
+    }\n\
+  }\n\
 }" > ResourcePack/$p.json
 	elif [[ $p == assets/betterend/models/item/* ]];
 	then

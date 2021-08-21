@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/thallasium_trapdoor"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/thallasium_trapdoor"
+    }
+  }
+}

@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/tenanea_bark"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/tenanea_bark"
+    }
+  }
+}

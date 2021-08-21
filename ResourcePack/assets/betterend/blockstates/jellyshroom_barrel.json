@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/jellyshroom_barrel"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/jellyshroom_barrel"
+    }
+  }
+}

@@ -1,2 +1,7 @@
 {
-  "variants": {    "": {      "model": "betterend:block/end_moss"    }  }}
+  "variants": {
+    "": {
+      "model": "betterend:block/end_moss"
+    }
+  }
+}
