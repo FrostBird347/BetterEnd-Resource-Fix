@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/outer_stairs",
   "textures": {
-    "bottom": "betterend:block/flavolite_stairs",
-    "top": "betterend:block/flavolite_stairs",
-    "side": "betterend:block/flavolite_stairs"
+    "bottom": "betterend:block/flavolite",
+    "top": "betterend:block/flavolite",
+    "side": "betterend:block/flavolite"
   }
 }

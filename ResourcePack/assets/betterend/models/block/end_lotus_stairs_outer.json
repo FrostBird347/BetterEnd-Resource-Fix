@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/outer_stairs",
   "textures": {
-    "bottom": "betterend:block/end_lotus_stairs",
-    "top": "betterend:block/end_lotus_stairs",
-    "side": "betterend:block/end_lotus_stairs"
+    "bottom": "betterend:block/end_lotus",
+    "top": "betterend:block/end_lotus",
+    "side": "betterend:block/end_lotus"
   }
 }

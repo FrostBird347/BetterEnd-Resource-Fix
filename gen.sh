@@ -39,6 +39,7 @@ done <./MissingResources.txt
 
 while read name
 do
+	textureName=$(sed 's/.\{7\}$//' <<< "$name")
 	printf "{\n\
   \"variants\": {\n\
     \"facing=east,half=bottom,shape=inner_left\": {\n\
@@ -251,26 +252,26 @@ do
 	printf "{\n\
   \"parent\": \"minecraft:block/stairs\",\n\
   \"textures\": {\n\
-    \"bottom\": \"betterend:block/$name\",\n\
-    \"top\": \"betterend:block/$name\",\n\
-    \"side\": \"betterend:block/$name\"\n\
+    \"bottom\": \"betterend:block/$textureName\",\n\
+    \"top\": \"betterend:block/$textureName\",\n\
+    \"side\": \"betterend:block/$textureName\"\n\
   }\n\
 }" > ResourcePack/assets/betterend/models/block/$name.json
 	printf "{\n\
   \"parent\": \"minecraft:block/outer_stairs\",\n\
   \"textures\": {\n\
-    \"bottom\": \"betterend:block/$name\",\n\
-    \"top\": \"betterend:block/$name\",\n\
-    \"side\": \"betterend:block/$name\"\n\
+    \"bottom\": \"betterend:block/$textureName\",\n\
+    \"top\": \"betterend:block/$textureName\",\n\
+    \"side\": \"betterend:block/$textureName\"\n\
   }\n\
 }" > ResourcePack/assets/betterend/models/block/${name}_outer.json
 
 	printf "{\n\
   \"parent\": \"minecraft:block/inner_stairs\",\n\
   \"textures\": {\n\
-    \"bottom\": \"betterend:block/$name\",\n\
-    \"top\": \"betterend:block/$name\",\n\
-    \"side\": \"betterend:block/$name\"\n\
+    \"bottom\": \"betterend:block/$textureName\",\n\
+    \"top\": \"betterend:block/$textureName\",\n\
+    \"side\": \"betterend:block/$textureName\"\n\
   }\n\
 }" > ResourcePack/assets/betterend/models/block/${name}_inner.json
 done <./ItemLists/Stairs.txt
