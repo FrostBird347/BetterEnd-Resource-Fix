@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "betterend:block/tenanea_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/tenanea"
+    },
+    "type=top": {
+      "model": "betterend:block/tenanea_slab_top"
+    }
+  }
+}

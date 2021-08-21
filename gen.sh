@@ -317,3 +317,38 @@ do
   }\n\
 }" > ResourcePack/assets/betterend/models/block/${name}_inner.json
 done <./ItemLists/Stairs.txt
+
+while read name
+do
+	textureName=$(sed 's/.\{5\}$//' <<< "$name")
+	blockName=$textureName
+	printf "{\n\
+  \"parent\": \"minecraft:block/slab\",\n\
+  \"textures\": {\n\
+    \"bottom\": \"betterend:block/$textureName\",\n\
+    \"top\": \"betterend:block/$textureName\",\n\
+    \"side\": \"betterend:block/$textureName\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/$name.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/slab_top\",\n\
+  \"textures\": {\n\
+    \"bottom\": \"betterend:block/$textureName\",\n\
+    \"top\": \"betterend:block/$textureName\",\n\
+    \"side\": \"betterend:block/$textureName\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_top.json
+	printf "{\n\
+  \"variants\": {\n\
+    \"type=bottom\": {\n\
+      \"model\": \"betterend:block/${name}\"\n\
+    },\n\
+    \"type=double\": {\n\
+      \"model\": \"minecraft:block/${blockName}\"\n\
+    },\n\
+    \"type=top\": {\n\
+      \"model\": \"betterend:block/${name}_top\"\n\
+    }\n\
+  }\n\
+}" > ResourcePack/assets/betterend/blockstates/$name.json
+done <./ItemLists/Slabs.txt

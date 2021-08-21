@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "betterend:block/jellyshroom_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/jellyshroom"
+    },
+    "type=top": {
+      "model": "betterend:block/jellyshroom_slab_top"
+    }
+  }
+}

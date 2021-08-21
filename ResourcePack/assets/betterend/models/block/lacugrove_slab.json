@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "betterend:block/lacugrove",
+    "top": "betterend:block/lacugrove",
+    "side": "betterend:block/lacugrove"
+  }
+}

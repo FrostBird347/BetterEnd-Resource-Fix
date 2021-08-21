@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "betterend:block/umbrella_tree",
+    "top": "betterend:block/umbrella_tree",
+    "side": "betterend:block/umbrella_tree"
+  }
+}

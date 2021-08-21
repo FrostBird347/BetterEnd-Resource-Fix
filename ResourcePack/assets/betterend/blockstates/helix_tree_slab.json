@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "betterend:block/helix_tree_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/helix_tree"
+    },
+    "type=top": {
+      "model": "betterend:block/helix_tree_slab_top"
+    }
+  }
+}

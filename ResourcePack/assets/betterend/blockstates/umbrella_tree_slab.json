@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "betterend:block/umbrella_tree_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/umbrella_tree"
+    },
+    "type=top": {
+      "model": "betterend:block/umbrella_tree_slab_top"
+    }
+  }
+}

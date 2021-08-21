@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "betterend:block/terminite_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/terminite"
+    },
+    "type=top": {
+      "model": "betterend:block/terminite_slab_top"
+    }
+  }
+}
