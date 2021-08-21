@@ -31,12 +31,22 @@ do
 }" > ResourcePack/$p.json
 	elif [[ $p == assets/betterend/models/block/* ]];
 	then
-		printf "{\n\
+		if [[ $name == *leaves* ]];
+		then
+			printf "{\n\
+  \"parent\": \"minecraft:block/leaves\",\n\
+  \"textures\": {\n\
+    \"all\": \"betterend:block/$name\"\n\
+  }\n\
+}" > ResourcePack/$p.json
+		else
+			printf "{\n\
   \"parent\": \"minecraft:block/cube_all\",\n\
   \"textures\": {\n\
     \"all\": \"betterend:block/$name\"\n\
   }\n\
 }" > ResourcePack/$p.json
+		fi
 	elif [[ $p == assets/betterend/textures/item* ]];
 	then
 		printf "{\n\
