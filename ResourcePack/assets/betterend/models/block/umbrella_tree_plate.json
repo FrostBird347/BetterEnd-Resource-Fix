@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/pressure_plate_up",
   "textures": {
-    "all": "betterend:block/umbrella_tree_plate"
+    "texture": "betterend:block/umbrella_tree_planks"
   }
 }

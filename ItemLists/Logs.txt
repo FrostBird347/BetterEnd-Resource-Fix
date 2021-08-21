@@ -1,0 +1,13 @@
+dragon_tree_stripped_log
+end_lotus_log
+end_lotus_stripped_log
+helix_tree_log
+helix_tree_stripped_log
+jellyshroom_log
+jellyshroom_stripped_log
+lacugrove_stripped_log
+lucernia_stripped_log
+tenanea_log
+tenanea_stripped_log
+umbrella_tree_log
+umbrella_tree_stripped_log

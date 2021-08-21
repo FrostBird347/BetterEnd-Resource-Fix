@@ -1,6 +1,14 @@
 #!/bin/bash
 
 #This script is a mess, but it works
+mkdir  ResourcePack
+mkdir  ResourcePack/assets
+mkdir  ResourcePack/assets/betterend
+mkdir  ResourcePack/assets/betterend/blockstates
+mkdir  ResourcePack/assets/betterend/models
+mkdir  ResourcePack/assets/betterend/models/block
+mkdir  ResourcePack/assets/betterend/models/item
+
 while read p
 do
 	name=$(basename $p)
@@ -400,3 +408,109 @@ do
   }\n\
 }" > ResourcePack/assets/betterend/blockstates/$name.json
 done <./ItemLists/Slabs.txt
+
+while read name
+do
+	printf "{\n\
+  \"variants\": {\n\
+    \"axis=x\": {\n\
+      \"model\": \"betterend:block/${name}_horizontal\",\n\
+      \"x\": 90,\n\
+      \"y\": 90\n\
+    },\n\
+    \"axis=y\": {\n\
+      \"model\": \"betterend:block/${name}\"\n\
+    },\n\
+    \"axis=z\": {\n\
+      \"model\": \"betterend:block/${name}_horizontal\",\n\
+      \"x\": 90\n\
+    }\n\
+  }\n\
+}" > ResourcePack/assets/betterend/blockstates/${name}.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/cube_column\",\n\
+  \"textures\": {\n\
+    \"end\": \"betterend:block/${name}_top\",\n\
+    \"side\": \"betterend:block/${name}_side\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/cube_column_horizontal\",\n\
+  \"textures\": {\n\
+    \"end\": \"betterend:block/${name}_top\",\n\
+    \"side\": \"betterend:block/${name}_side\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_horizontal.json
+done <./ItemLists/Logs.txt
+
+while read name
+do
+	textureName=$(sed 's/.\{6\}$//' <<< "$name")
+	if [[ $textureName == *_tree ]];
+	then
+		textureName=${textureName}_planks
+	fi
+	if [[ $textureName == *_bone ]];
+	then
+		textureName=${textureName}_block
+	fi
+	if [[ $textureName == pythadendron ]];
+	then
+		textureName=pythadendron_planks
+	fi
+	if [[ $textureName == lacugrove ]];
+	then
+		textureName=lacugrove_planks
+	fi
+	if [[ $textureName == mossy_glowshroom ]];
+	then
+		textureName=mossy_glowshroom_planks
+	fi
+	if [[ $textureName == terminite ]];
+	then
+		textureName=terminite_block
+	fi
+	if [[ $textureName == jellyshroom ]];
+	then
+		textureName=jellyshroom_planks
+	fi
+	if [[ $textureName == tenanea ]];
+	then
+		textureName=tenanea_planks
+	fi
+	if [[ $textureName == lucernia ]];
+	then
+		textureName=lucernia_planks
+	fi
+	if [[ $textureName == thallasium ]];
+	then
+		textureName=thallasium_block
+	fi
+	if [[ $textureName == end_lotus ]];
+	then
+		textureName=end_lotus_planks
+	fi
+	blockName=$textureName
+	printf "{\n\
+  \"parent\": \"minecraft:block/pressure_plate_up\",\n\
+  \"textures\": {\n\
+    \"texture\": \"betterend:block/$textureName\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/$name.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/pressure_plate_down\",\n\
+  \"textures\": {\n\
+    \"texture\": \"betterend:block/$textureName\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_down.json
+	printf "{\n\
+  \"variants\": {\n\
+    \"powered=false\": {\n\
+      \"model\": \"betterend:block/${name}\"\n\
+    },\n\
+    \"powered=true\": {\n\
+      \"model\": \"betterend:block/${name}_down\"\n\
+    }\n\
+  }\n\
+}" > ResourcePack/assets/betterend/blockstates/$name.json
+done <./ItemLists/Plates.txt

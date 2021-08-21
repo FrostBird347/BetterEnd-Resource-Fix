@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "betterend:block/lucernia_stripped_log"
+    "end": "betterend:block/lucernia_stripped_log_top",
+    "side": "betterend:block/lucernia_stripped_log_side"
   }
 }

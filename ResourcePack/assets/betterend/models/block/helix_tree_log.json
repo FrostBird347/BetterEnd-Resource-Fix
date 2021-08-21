@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "betterend:block/helix_tree_log"
+    "end": "betterend:block/helix_tree_log_top",
+    "side": "betterend:block/helix_tree_log_side"
   }
 }

@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/pressure_plate_up",
   "textures": {
-    "all": "betterend:block/sandy_jadestone_plate"
+    "texture": "betterend:block/sandy_jadestone"
   }
 }

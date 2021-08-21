@@ -1,6 +1,3 @@
-	In progress
-Logs
-	Broken
 aeternium_anvil
 amaranita_cap
 amaranita_hymenophore
@@ -13,7 +10,6 @@ azure_jadestone_furnace
 azure_jadestone_lantern
 azure_jadestone_pedestal
 azure_jadestone_pillar
-azure_jadestone_plate
 azure_jadestone_wall
 blackstone_lantern
 cave_moss
@@ -33,9 +29,7 @@ dragon_tree_crafting_table
 dragon_tree_fence
 dragon_tree_gate
 dragon_tree_ladder
-dragon_tree_plate
 dragon_tree_sapling
-dragon_tree_stripped_log
 dragon_tree_trapdoor
 enchanted_membrane
 enchanted_petal
@@ -48,9 +42,6 @@ end_lotus_crafting_table
 end_lotus_fence
 end_lotus_gate
 end_lotus_ladder
-end_lotus_log
-end_lotus_plate
-end_lotus_stripped_log
 end_lotus_trapdoor
 end_moss
 end_moss_path
@@ -66,7 +57,6 @@ flavolite_furnace
 flavolite_lantern
 flavolite_pedestal
 flavolite_pillar
-flavolite_plate
 flavolite_wall
 granite_lantern
 granite_pedestal
@@ -79,10 +69,7 @@ helix_tree_crafting_table
 helix_tree_fence
 helix_tree_gate
 helix_tree_ladder
-helix_tree_log
-helix_tree_plate
 helix_tree_sapling
-helix_tree_stripped_log
 helix_tree_trapdoor
 hydralux_petal_block_black
 hydralux_petal_block_blue
@@ -128,9 +115,6 @@ jellyshroom_crafting_table
 jellyshroom_fence
 jellyshroom_gate
 jellyshroom_ladder
-jellyshroom_log
-jellyshroom_plate
-jellyshroom_stripped_log
 jellyshroom_trapdoor
 jungle_moss
 jungle_moss_path
@@ -143,9 +127,7 @@ lacugrove_crafting_table
 lacugrove_fence
 lacugrove_gate
 lacugrove_ladder
-lacugrove_plate
 lacugrove_sapling
-lacugrove_stripped_log
 lacugrove_trapdoor
 lucernia_barrel
 lucernia_bookshelf
@@ -156,9 +138,7 @@ lucernia_crafting_table
 lucernia_fence
 lucernia_gate
 lucernia_ladder
-lucernia_plate
 lucernia_sapling
-lucernia_stripped_log
 lucernia_trapdoor
 mossy_glowshroom_barrel
 mossy_glowshroom_bookshelf
@@ -169,7 +149,6 @@ mossy_glowshroom_crafting_table
 mossy_glowshroom_fence
 mossy_glowshroom_gate
 mossy_glowshroom_ladder
-mossy_glowshroom_plate
 mossy_glowshroom_sapling
 mossy_glowshroom_trapdoor
 neon_cactus_block
@@ -189,7 +168,6 @@ pythadendron_crafting_table
 pythadendron_fence
 pythadendron_gate
 pythadendron_ladder
-pythadendron_plate
 pythadendron_sapling
 pythadendron_trapdoor
 quartz_lantern
@@ -201,7 +179,6 @@ sandy_jadestone_furnace
 sandy_jadestone_lantern
 sandy_jadestone_pedestal
 sandy_jadestone_pillar
-sandy_jadestone_plate
 sandy_jadestone_wall
 sangnum
 sangnum_path
@@ -221,7 +198,6 @@ sulphuric_rock_furnace
 sulphuric_rock_lantern
 sulphuric_rock_pedestal
 sulphuric_rock_pillar
-sulphuric_rock_plate
 sulphuric_rock_wall
 tenanea_barrel
 tenanea_bookshelf
@@ -232,10 +208,7 @@ tenanea_crafting_table
 tenanea_fence
 tenanea_gate
 tenanea_ladder
-tenanea_log
-tenanea_plate
 tenanea_sapling
-tenanea_stripped_log
 tenanea_trapdoor
 terminite_anvil
 terminite_bars
@@ -256,7 +229,6 @@ terminite_bulb_lantern_purple
 terminite_bulb_lantern_red
 terminite_bulb_lantern_white
 terminite_bulb_lantern_yellow
-terminite_plate
 terminite_tile
 terminite_trapdoor
 thallasium_anvil
@@ -278,7 +250,6 @@ thallasium_bulb_lantern_purple
 thallasium_bulb_lantern_red
 thallasium_bulb_lantern_white
 thallasium_bulb_lantern_yellow
-thallasium_plate
 thallasium_trapdoor
 umbralith
 umbralith_bricks_wall
@@ -288,7 +259,6 @@ umbralith_furnace
 umbralith_lantern
 umbralith_pedestal
 umbralith_pillar
-umbralith_plate
 umbralith_polished
 umbralith_wall
 umbrella_tree_barrel
@@ -300,11 +270,8 @@ umbrella_tree_crafting_table
 umbrella_tree_fence
 umbrella_tree_gate
 umbrella_tree_ladder
-umbrella_tree_log
 umbrella_tree_membrane
-umbrella_tree_plate
 umbrella_tree_sapling
-umbrella_tree_stripped_log
 umbrella_tree_trapdoor
 violecite_bricks_wall
 violecite_button
@@ -313,7 +280,6 @@ violecite_furnace
 violecite_lantern
 violecite_pedestal
 violecite_pillar
-violecite_plate
 violecite_polished
 violecite_wall
 virid_jadestone_bricks_wall
@@ -323,5 +289,4 @@ virid_jadestone_furnace
 virid_jadestone_lantern
 virid_jadestone_pedestal
 virid_jadestone_pillar
-virid_jadestone_plate
 virid_jadestone_wall
