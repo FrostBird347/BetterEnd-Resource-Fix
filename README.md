@@ -23,4 +23,11 @@ TODO:
 	- [ ] Bookshelves
 	- [ ] Ladders
 	- [ ] Chests
-	- [ ] Other blocks
+	- [ ] Barrels
+	- [ ] Composters
+	- [ ] Crafting Tables
+	- [ ] Fences
+	- [ ] Gates
+	- [ ] Saplings
+	- [ ] Lanterns
+	- [ ] Other Blocks
