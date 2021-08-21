@@ -1,4 +1,7 @@
 #!/bin/bash
+
+#This script was made to quickly generate the blocks and item resources
+#While it does generate all the item textures correctly, any blocks that are not a regular cube will appear corrupted.
 while read p; do
 	name=$(basename $p)
 	if [[ $p == assets/betterend/blockstates/* ]];

@@ -5,8 +5,8 @@ A custom resource pack that adds in the missing block models that mods such as [
 TODO:
 
 - [x] Items
-- [ ] Verify items
-- [ ] Fix any broken items
+- [x] Verify items
+- [x] Fix any broken items
 - [x] Blocks
-- [ ] Verify blocks
+- [x] Verify blocks
 - [ ] Fix any broken blocks
