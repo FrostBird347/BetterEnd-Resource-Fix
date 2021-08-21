@@ -58,7 +58,7 @@ do
 	then
 		textureName=lacugrove_planks
 	fi
-	if [[ $textureName == mossy_glowshroom_ ]];
+	if [[ $textureName == mossy_glowshroom ]];
 	then
 		textureName=mossy_glowshroom_planks
 	fi

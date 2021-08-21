@@ -10,7 +10,7 @@ TODO:
 - [x] Blocks
 - [x] Verify blocks
 - [ ] Fix any broken blocks
-	- [ ] Stairs
+	- [x] Stairs
 	- [ ] Logs
 	- [ ] Slabs
 	- [ ] Doors
