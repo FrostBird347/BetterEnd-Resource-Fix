@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#This script is a mess, but it works
 while read p
 do
 	name=$(basename $p)
@@ -47,6 +49,38 @@ do
 	if [[ $textureName == *_bone ]];
 	then
 		textureName=${textureName}_block
+	fi
+	if [[ $textureName == pythadendron ]];
+	then
+		textureName=pythadendron_planks
+	fi
+	if [[ $textureName == lacugrove ]];
+	then
+		textureName=lacugrove_planks
+	fi
+	if [[ $textureName == mossy_glowshroom_ ]];
+	then
+		textureName=mossy_glowshroom_planks
+	fi
+	if [[ $textureName == terminite ]];
+	then
+		textureName=terminite_block
+	fi
+	if [[ $textureName == jellyshroom ]];
+	then
+		textureName=jellyshroom_planks
+	fi
+	if [[ $textureName == tenanea ]];
+	then
+		textureName=tenanea_planks
+	fi
+	if [[ $textureName == lucernia ]];
+	then
+		textureName=lucernia_planks
+	fi
+	if [[ $textureName == thallasium ]];
+	then
+		textureName=thallasium_block
 	fi
 	printf "{\n\
   \"variants\": {\n\
