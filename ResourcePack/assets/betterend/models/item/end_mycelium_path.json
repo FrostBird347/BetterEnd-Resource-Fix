@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/end_mycelium_path"
-  }
+  "parent": "betterend:block/end_mycelium_path"
 }

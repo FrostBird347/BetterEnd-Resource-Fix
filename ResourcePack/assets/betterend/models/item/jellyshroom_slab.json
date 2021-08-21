@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/jellyshroom_slab"
-  }
+  "parent": "betterend:block/jellyshroom_slab"
 }

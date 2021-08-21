@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/andesite_pedestal"
-  }
+  "parent": "betterend:block/andesite_pedestal"
 }

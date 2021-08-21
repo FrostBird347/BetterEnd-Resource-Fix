@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/lacugrove_planks"
-  }
+  "parent": "betterend:block/lacugrove_planks"
 }

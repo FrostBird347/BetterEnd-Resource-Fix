@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/spawn_egg_dragonfly"
-  }
+  "parent": "betterend:block/spawn_egg_dragonfly"
 }

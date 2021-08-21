@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/pythadendron_bookshelf"
-  }
+  "parent": "betterend:block/pythadendron_bookshelf"
 }

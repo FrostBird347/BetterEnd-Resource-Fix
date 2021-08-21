@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/quartz_lantern"
-  }
+  "parent": "betterend:block/quartz_lantern"
 }

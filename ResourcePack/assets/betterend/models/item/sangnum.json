@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/sangnum"
-  }
+  "parent": "betterend:block/sangnum"
 }

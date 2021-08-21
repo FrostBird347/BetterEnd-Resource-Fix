@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/tenanea_composter"
-  }
+  "parent": "betterend:block/tenanea_composter"
 }

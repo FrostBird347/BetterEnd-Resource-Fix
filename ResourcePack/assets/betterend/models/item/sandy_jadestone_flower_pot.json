@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/sandy_jadestone_flower_pot"
-  }
+  "parent": "betterend:block/sandy_jadestone_flower_pot"
 }

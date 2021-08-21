@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/thallasium_tile"
-  }
+  "parent": "betterend:block/thallasium_tile"
 }

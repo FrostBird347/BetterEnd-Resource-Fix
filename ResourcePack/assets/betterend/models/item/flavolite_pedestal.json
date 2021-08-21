@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/flavolite_pedestal"
-  }
+  "parent": "betterend:block/flavolite_pedestal"
 }

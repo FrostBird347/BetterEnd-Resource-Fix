@@ -18,6 +18,19 @@ while read p; do
     \"layer0\": \"betterend:item/$name\"\n\
   }\n\
 }" > ResourcePack/$p.json
+	elif [[ $p == assets/betterend/models/block/* ]];
+	then
+		printf "{\n\
+  \"parent\": \"minecraft:block/cube_all\",\n\
+  \"textures\": {\n\
+    \"all\": \"betterend:block/$name\"\n\
+  \}\n\
+}" > ResourcePack/$p.json
+	elif [[ $p == assets/betterend/textures/item* ]];
+	then
+		printf "{\n\
+  \"parent\": \"betterend:block/$name\"\n\
+}" > ResourcePack/assets/betterend/models/item/$name.json
 	else
 		echo "$p"
 	fi

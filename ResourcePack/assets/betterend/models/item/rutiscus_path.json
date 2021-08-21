@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/rutiscus_path"
-  }
+  "parent": "betterend:block/rutiscus_path"
 }

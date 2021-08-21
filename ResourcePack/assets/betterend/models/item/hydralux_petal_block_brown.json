@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/hydralux_petal_block_brown"
-  }
+  "parent": "betterend:block/hydralux_petal_block_brown"
 }

@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/lacugrove_gate"
-  }
+  "parent": "betterend:block/lacugrove_gate"
 }

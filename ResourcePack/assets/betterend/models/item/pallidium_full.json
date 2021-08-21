@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/pallidium_full"
-  }
+  "parent": "betterend:block/pallidium_full"
 }

@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/enchanted_petal"
-  }
+  "parent": "betterend:block/enchanted_petal"
 }

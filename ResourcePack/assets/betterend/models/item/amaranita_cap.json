@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/amaranita_cap"
-  }
+  "parent": "betterend:block/amaranita_cap"
 }

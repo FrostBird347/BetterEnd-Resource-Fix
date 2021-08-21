@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/helix_tree_log"
-  }
+  "parent": "betterend:block/helix_tree_log"
 }

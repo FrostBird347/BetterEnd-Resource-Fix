@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/lucernia_button"
-  }
+  "parent": "betterend:block/lucernia_button"
 }

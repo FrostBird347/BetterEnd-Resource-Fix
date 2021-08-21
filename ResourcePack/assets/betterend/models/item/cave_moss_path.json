@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/cave_moss_path"
-  }
+  "parent": "betterend:block/cave_moss_path"
 }

@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/granite_pedestal"
-  }
+  "parent": "betterend:block/granite_pedestal"
 }

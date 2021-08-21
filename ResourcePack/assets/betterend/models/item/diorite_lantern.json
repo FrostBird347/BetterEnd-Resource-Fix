@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/diorite_lantern"
-  }
+  "parent": "betterend:block/diorite_lantern"
 }

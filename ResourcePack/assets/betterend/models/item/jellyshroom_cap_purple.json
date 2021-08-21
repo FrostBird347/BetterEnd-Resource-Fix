@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/jellyshroom_cap_purple"
-  }
+  "parent": "betterend:block/jellyshroom_cap_purple"
 }

@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/endstone_flower_pot"
-  }
+  "parent": "betterend:block/endstone_flower_pot"
 }

@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/shadow_grass_path"
-  }
+  "parent": "betterend:block/shadow_grass_path"
 }

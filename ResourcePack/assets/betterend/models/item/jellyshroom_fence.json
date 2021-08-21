@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/jellyshroom_fence"
-  }
+  "parent": "betterend:block/jellyshroom_fence"
 }

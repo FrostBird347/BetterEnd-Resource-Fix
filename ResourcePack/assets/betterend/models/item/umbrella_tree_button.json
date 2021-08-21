@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/umbrella_tree_button"
-  }
+  "parent": "betterend:block/umbrella_tree_button"
 }

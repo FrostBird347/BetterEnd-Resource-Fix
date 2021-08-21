@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betterend:item/blackstone_lantern"
-  }
+  "parent": "betterend:block/blackstone_lantern"
 }
