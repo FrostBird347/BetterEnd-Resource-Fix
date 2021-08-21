@@ -24,7 +24,7 @@ while read p; do
   \"parent\": \"minecraft:block/cube_all\",\n\
   \"textures\": {\n\
     \"all\": \"betterend:block/$name\"\n\
-  \}\n\
+  }\n\
 }" > ResourcePack/$p.json
 	elif [[ $p == assets/betterend/textures/item* ]];
 	then
