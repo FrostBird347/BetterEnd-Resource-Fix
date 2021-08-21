@@ -12,7 +12,7 @@ TODO:
 - [ ] Fix any broken blocks
 	- [x] Stairs
 	- [ ] Logs
-	- [ ] Slabs
+	- [x] Slabs
 	- [ ] Doors
 	- [ ] Trapdoors
 	- [ ] Buttons

@@ -82,6 +82,10 @@ do
 	then
 		textureName=thallasium_block
 	fi
+	if [[ $textureName == end_lotus ]];
+	then
+		textureName=end_lotus_planks
+	fi
 	printf "{\n\
   \"variants\": {\n\
     \"facing=east,half=bottom,shape=inner_left\": {\n\
@@ -321,6 +325,14 @@ done <./ItemLists/Stairs.txt
 while read name
 do
 	textureName=$(sed 's/.\{5\}$//' <<< "$name")
+	if [[ $textureName == *_tree ]];
+	then
+		textureName=${textureName}_planks
+	fi
+	if [[ $textureName == *_bone ]];
+	then
+		textureName=${textureName}_block
+	fi
 	if [[ $textureName == pythadendron ]];
 	then
 		textureName=pythadendron_planks
@@ -352,6 +364,10 @@ do
 	if [[ $textureName == thallasium ]];
 	then
 		textureName=thallasium_block
+	fi
+	if [[ $textureName == end_lotus ]];
+	then
+		textureName=end_lotus_planks
 	fi
 	blockName=$textureName
 	printf "{\n\

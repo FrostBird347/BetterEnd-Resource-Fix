@@ -4,7 +4,7 @@
       "model": "betterend:block/end_lotus_slab"
     },
     "type=double": {
-      "model": "minecraft:block/end_lotus"
+      "model": "minecraft:block/end_lotus_planks"
     },
     "type=top": {
       "model": "betterend:block/end_lotus_slab_top"

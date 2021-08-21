@@ -1,12 +1,11 @@
 	In progress
-All stairs
+Logs
 	Broken
 aeternium_anvil
 amaranita_cap
 amaranita_hymenophore
 andesite_lantern
 andesite_pedestal
-azure_jadestone_bricks_slab
 azure_jadestone_bricks_wall
 azure_jadestone_button
 azure_jadestone_flower_pot
@@ -15,7 +14,6 @@ azure_jadestone_lantern
 azure_jadestone_pedestal
 azure_jadestone_pillar
 azure_jadestone_plate
-azure_jadestone_slab
 azure_jadestone_wall
 blackstone_lantern
 cave_moss
@@ -26,7 +24,6 @@ crystal_moss
 crystal_moss_path
 diorite_lantern
 diorite_pedestal
-dragon_bone_slab
 dragon_tree_barrel
 dragon_tree_bookshelf
 dragon_tree_button
@@ -38,7 +35,6 @@ dragon_tree_gate
 dragon_tree_ladder
 dragon_tree_plate
 dragon_tree_sapling
-dragon_tree_slab
 dragon_tree_stripped_log
 dragon_tree_trapdoor
 enchanted_membrane
@@ -54,7 +50,6 @@ end_lotus_gate
 end_lotus_ladder
 end_lotus_log
 end_lotus_plate
-end_lotus_slab
 end_lotus_stripped_log
 end_lotus_trapdoor
 end_moss
@@ -64,7 +59,6 @@ end_mycelium_path
 end_stone_furnace
 end_stone_lantern
 endstone_flower_pot
-flavolite_bricks_slab
 flavolite_bricks_wall
 flavolite_button
 flavolite_flower_pot
@@ -73,7 +67,6 @@ flavolite_lantern
 flavolite_pedestal
 flavolite_pillar
 flavolite_plate
-flavolite_slab
 flavolite_wall
 granite_lantern
 granite_pedestal
@@ -89,7 +82,6 @@ helix_tree_ladder
 helix_tree_log
 helix_tree_plate
 helix_tree_sapling
-helix_tree_slab
 helix_tree_stripped_log
 helix_tree_trapdoor
 hydralux_petal_block_black
@@ -138,7 +130,6 @@ jellyshroom_gate
 jellyshroom_ladder
 jellyshroom_log
 jellyshroom_plate
-jellyshroom_slab
 jellyshroom_stripped_log
 jellyshroom_trapdoor
 jungle_moss
@@ -154,7 +145,6 @@ lacugrove_gate
 lacugrove_ladder
 lacugrove_plate
 lacugrove_sapling
-lacugrove_slab
 lacugrove_stripped_log
 lacugrove_trapdoor
 lucernia_barrel
@@ -168,7 +158,6 @@ lucernia_gate
 lucernia_ladder
 lucernia_plate
 lucernia_sapling
-lucernia_slab
 lucernia_stripped_log
 lucernia_trapdoor
 mossy_glowshroom_barrel
@@ -182,7 +171,6 @@ mossy_glowshroom_gate
 mossy_glowshroom_ladder
 mossy_glowshroom_plate
 mossy_glowshroom_sapling
-mossy_glowshroom_slab
 mossy_glowshroom_trapdoor
 neon_cactus_block
 pallidium_full
@@ -203,11 +191,9 @@ pythadendron_gate
 pythadendron_ladder
 pythadendron_plate
 pythadendron_sapling
-pythadendron_slab
 pythadendron_trapdoor
 quartz_lantern
 rutiscus_path
-sandy_jadestone_bricks_slab
 sandy_jadestone_bricks_wall
 sandy_jadestone_button
 sandy_jadestone_flower_pot
@@ -216,13 +202,11 @@ sandy_jadestone_lantern
 sandy_jadestone_pedestal
 sandy_jadestone_pillar
 sandy_jadestone_plate
-sandy_jadestone_slab
 sandy_jadestone_wall
 sangnum
 sangnum_path
 shadow_grass
 shadow_grass_path
-smaragdant_crystal_bricks_slab
 smaragdant_crystal_pillar
 spawn_egg_cubozoa
 spawn_egg_dragonfly
@@ -230,7 +214,6 @@ spawn_egg_end_fish
 spawn_egg_end_slime
 spawn_egg_shadow_walker
 spawn_egg_silk_moth
-sulphuric_rock_bricks_slab
 sulphuric_rock_bricks_wall
 sulphuric_rock_button
 sulphuric_rock_flower_pot
@@ -239,7 +222,6 @@ sulphuric_rock_lantern
 sulphuric_rock_pedestal
 sulphuric_rock_pillar
 sulphuric_rock_plate
-sulphuric_rock_slab
 sulphuric_rock_wall
 tenanea_barrel
 tenanea_bookshelf
@@ -253,7 +235,6 @@ tenanea_ladder
 tenanea_log
 tenanea_plate
 tenanea_sapling
-tenanea_slab
 tenanea_stripped_log
 tenanea_trapdoor
 terminite_anvil
@@ -276,7 +257,6 @@ terminite_bulb_lantern_red
 terminite_bulb_lantern_white
 terminite_bulb_lantern_yellow
 terminite_plate
-terminite_slab
 terminite_tile
 terminite_trapdoor
 thallasium_anvil
@@ -299,10 +279,8 @@ thallasium_bulb_lantern_red
 thallasium_bulb_lantern_white
 thallasium_bulb_lantern_yellow
 thallasium_plate
-thallasium_slab
 thallasium_trapdoor
 umbralith
-umbralith_bricks_slab
 umbralith_bricks_wall
 umbralith_button
 umbralith_flower_pot
@@ -312,7 +290,6 @@ umbralith_pedestal
 umbralith_pillar
 umbralith_plate
 umbralith_polished
-umbralith_slab
 umbralith_wall
 umbrella_tree_barrel
 umbrella_tree_bookshelf
@@ -327,10 +304,8 @@ umbrella_tree_log
 umbrella_tree_membrane
 umbrella_tree_plate
 umbrella_tree_sapling
-umbrella_tree_slab
 umbrella_tree_stripped_log
 umbrella_tree_trapdoor
-violecite_bricks_slab
 violecite_bricks_wall
 violecite_button
 violecite_flower_pot
@@ -340,9 +315,7 @@ violecite_pedestal
 violecite_pillar
 violecite_plate
 violecite_polished
-violecite_slab
 violecite_wall
-virid_jadestone_bricks_slab
 virid_jadestone_bricks_wall
 virid_jadestone_button
 virid_jadestone_flower_pot
@@ -351,5 +324,4 @@ virid_jadestone_lantern
 virid_jadestone_pedestal
 virid_jadestone_pillar
 virid_jadestone_plate
-virid_jadestone_slab
 virid_jadestone_wall
