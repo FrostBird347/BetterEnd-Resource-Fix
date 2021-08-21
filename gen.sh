@@ -1118,3 +1118,22 @@ do
   \"parent\": \"betterend:block/${name}_inventory\"\n\
 }" > ResourcePack/assets/betterend/models/item/${name}.json
 done <./ItemLists/Walls.txt
+
+while read name
+do
+	printf "{\n\
+  \"variants\": {\n\
+    \"\": {\n\
+      \"model\": \"betterend:block/${name}\"\n\
+    }\n\
+  }\n\
+}" > ResourcePack/assets/betterend/blockstates/${name}.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/cube_bottom_top\",\n\
+  \"textures\": {\n\
+    \"top\": \"betterend:block/${name}_top\",\n\
+    \"bottom\": \"betterend:block/missing_tile\",\n\
+    \"side\": \"betterend:block/${name}_side\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}.json
+done <./ItemLists/Grass.txt
