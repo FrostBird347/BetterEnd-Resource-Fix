@@ -1,0 +1,17 @@
+azure_jadestone_button
+dragon_tree_button
+end_lotus_button
+flavolite_button
+helix_tree_button
+jellyshroom_button
+lacugrove_button
+lucernia_button
+mossy_glowshroom_button
+pythadendron_button
+sandy_jadestone_button
+sulphuric_rock_button
+tenanea_button
+umbralith_button
+umbrella_tree_button
+violecite_button
+virid_jadestone_button

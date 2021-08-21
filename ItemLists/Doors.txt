@@ -1,0 +1,12 @@
+dragon_tree_door
+end_lotus_door
+helix_tree_door
+jellyshroom_door
+lacugrove_door
+lucernia_door
+mossy_glowshroom_door
+pythadendron_door
+tenanea_door
+terminite_door
+thallasium_door
+umbrella_tree_door

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "betterend:block/lacugrove_door_top",
+    "bottom": "betterend:block/lacugrove_door_bottom"
+  }
+}

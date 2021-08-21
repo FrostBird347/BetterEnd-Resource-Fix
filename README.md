@@ -13,9 +13,9 @@ TODO:
 	- [x] Stairs
 	- [x] Logs
 	- [x] Slabs
-	- [ ] Doors
-	- [ ] Trapdoors
-	- [ ] Buttons
+	- [x] Doors
+	- [x] Trapdoors
+	- [x] Buttons
 	- [x] Pressure Plates
 	- [ ] Walls
 	- [ ] Grass

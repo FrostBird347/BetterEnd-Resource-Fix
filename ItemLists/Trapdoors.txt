@@ -1,0 +1,12 @@
+dragon_tree_trapdoor
+end_lotus_trapdoor
+helix_tree_trapdoor
+jellyshroom_trapdoor
+lacugrove_trapdoor
+lucernia_trapdoor
+mossy_glowshroom_trapdoor
+pythadendron_trapdoor
+tenanea_trapdoor
+terminite_trapdoor
+thallasium_trapdoor
+umbrella_tree_trapdoor

@@ -514,3 +514,431 @@ do
   }\n\
 }" > ResourcePack/assets/betterend/blockstates/$name.json
 done <./ItemLists/Plates.txt
+
+while read name
+do
+	rm ResourcePack/assets/betterend/models/block/${name}.json
+	printf "{\n\
+  \"variants\": {\n\
+    \"facing=east,half=bottom,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_bottom\"\n\
+    },\n\
+    \"facing=east,half=bottom,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_open\",\n\
+      \"y\": 90\n\
+    },\n\
+    \"facing=east,half=top,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_top\"\n\
+    },\n\
+    \"facing=east,half=top,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_open\",\n\
+      \"y\": 90\n\
+    },\n\
+    \"facing=north,half=bottom,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_bottom\"\n\
+    },\n\
+    \"facing=north,half=bottom,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_open\"\n\
+    },\n\
+    \"facing=north,half=top,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_top\"\n\
+    },\n\
+    \"facing=north,half=top,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_open\"\n\
+    },\n\
+    \"facing=south,half=bottom,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_bottom\"\n\
+    },\n\
+    \"facing=south,half=bottom,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_open\",\n\
+      \"y\": 180\n\
+    },\n\
+    \"facing=south,half=top,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_top\"\n\
+    },\n\
+    \"facing=south,half=top,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_open\",\n\
+      \"y\": 180\n\
+    },\n\
+    \"facing=west,half=bottom,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_bottom\"\n\
+    },\n\
+    \"facing=west,half=bottom,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_open\",\n\
+      \"y\": 270\n\
+    },\n\
+    \"facing=west,half=top,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_top\"\n\
+    },\n\
+    \"facing=west,half=top,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_open\",\n\
+      \"y\": 270\n\
+    }\n\
+  }\n\
+}" > ResourcePack/assets/betterend/blockstates/${name}.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/template_trapdoor_bottom\",\n\
+  \"textures\": {\n\
+    \"texture\": \"betterend:block/${name}\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_bottom.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/template_trapdoor_top\",\n\
+  \"textures\": {\n\
+    \"texture\": \"betterend:block/${name}\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_top.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/template_trapdoor_open\",\n\
+  \"textures\": {\n\
+    \"texture\": \"betterend:block/${name}\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_open.json
+	printf "{\n\
+  \"parent\": \"betterend:block/${name}_bottom\"\n\
+}" > ResourcePack/assets/betterend/models/item/${name}.json
+done <./ItemLists/Trapdoors.txt
+
+while read name
+do
+	printf "{\n\
+  \"variants\": {\n\
+    \"facing=east,half=lower,hinge=left,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_bottom\"\n\
+    },\n\
+    \"facing=east,half=lower,hinge=left,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_bottom_hinge\",\n\
+      \"y\": 90\n\
+    },\n\
+    \"facing=east,half=lower,hinge=right,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_bottom_hinge\"\n\
+    },\n\
+    \"facing=east,half=lower,hinge=right,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_bottom\",\n\
+      \"y\": 270\n\
+    },\n\
+    \"facing=east,half=upper,hinge=left,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_top\"\n\
+    },\n\
+    \"facing=east,half=upper,hinge=left,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_top_hinge\",\n\
+      \"y\": 90\n\
+    },\n\
+    \"facing=east,half=upper,hinge=right,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_top_hinge\"\n\
+    },\n\
+    \"facing=east,half=upper,hinge=right,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_top\",\n\
+      \"y\": 270\n\
+    },\n\
+    \"facing=north,half=lower,hinge=left,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_bottom\",\n\
+      \"y\": 270\n\
+    },\n\
+    \"facing=north,half=lower,hinge=left,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_bottom_hinge\"\n\
+    },\n\
+    \"facing=north,half=lower,hinge=right,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_bottom_hinge\",\n\
+      \"y\": 270\n\
+    },\n\
+    \"facing=north,half=lower,hinge=right,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_bottom\",\n\
+      \"y\": 180\n\
+    },\n\
+    \"facing=north,half=upper,hinge=left,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_top\",\n\
+      \"y\": 270\n\
+    },\n\
+    \"facing=north,half=upper,hinge=left,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_top_hinge\"\n\
+    },\n\
+    \"facing=north,half=upper,hinge=right,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_top_hinge\",\n\
+      \"y\": 270\n\
+    },\n\
+    \"facing=north,half=upper,hinge=right,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_top\",\n\
+      \"y\": 180\n\
+    },\n\
+    \"facing=south,half=lower,hinge=left,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_bottom\",\n\
+      \"y\": 90\n\
+    },\n\
+    \"facing=south,half=lower,hinge=left,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_bottom_hinge\",\n\
+      \"y\": 180\n\
+    },\n\
+    \"facing=south,half=lower,hinge=right,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_bottom_hinge\",\n\
+      \"y\": 90\n\
+    },\n\
+    \"facing=south,half=lower,hinge=right,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_bottom\"\n\
+    },\n\
+    \"facing=south,half=upper,hinge=left,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_top\",\n\
+      \"y\": 90\n\
+    },\n\
+    \"facing=south,half=upper,hinge=left,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_top_hinge\",\n\
+      \"y\": 180\n\
+    },\n\
+    \"facing=south,half=upper,hinge=right,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_top_hinge\",\n\
+      \"y\": 90\n\
+    },\n\
+    \"facing=south,half=upper,hinge=right,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_top\"\n\
+    },\n\
+    \"facing=west,half=lower,hinge=left,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_bottom\",\n\
+      \"y\": 180\n\
+    },\n\
+    \"facing=west,half=lower,hinge=left,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_bottom_hinge\",\n\
+      \"y\": 270\n\
+    },\n\
+    \"facing=west,half=lower,hinge=right,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_bottom_hinge\",\n\
+      \"y\": 180\n\
+    },\n\
+    \"facing=west,half=lower,hinge=right,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_bottom\",\n\
+      \"y\": 90\n\
+    },\n\
+    \"facing=west,half=upper,hinge=left,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_top\",\n\
+      \"y\": 180\n\
+    },\n\
+    \"facing=west,half=upper,hinge=left,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_top_hinge\",\n\
+      \"y\": 270\n\
+    },\n\
+    \"facing=west,half=upper,hinge=right,open=false\": {\n\
+      \"model\": \"betterend:block/${name}_top_hinge\",\n\
+      \"y\": 180\n\
+    },\n\
+    \"facing=west,half=upper,hinge=right,open=true\": {\n\
+      \"model\": \"betterend:block/${name}_top\",\n\
+      \"y\": 90\n\
+    }\n\
+  }\n\
+}" > ResourcePack/assets/betterend/blockstates/${name}.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/door_top\",\n\
+  \"textures\": {\n\
+    \"top\": \"betterend:block/${name}_top\",\n\
+    \"bottom\": \"betterend:block/${name}_bottom\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_top.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/door_top_rh\",\n\
+  \"textures\": {\n\
+    \"top\": \"betterend:block/${name}_top\",\n\
+    \"bottom\": \"betterend:block/${name}_bottom\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_top_hinge.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/door_bottom\",\n\
+  \"textures\": {\n\
+    \"top\": \"betterend:block/${name}_top\",\n\
+    \"bottom\": \"betterend:block/${name}_bottom\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_bottom.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/door_bottom_rh\",\n\
+  \"textures\": {\n\
+    \"top\": \"betterend:block/${name}_top\",\n\
+    \"bottom\": \"betterend:block/${name}_bottom\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_bottom_hinge.json
+done <./ItemLists/Doors.txt
+
+while read name
+do
+	textureName=$(sed 's/.\{7\}$//' <<< "$name")
+	if [[ $textureName == *_tree ]];
+	then
+		textureName=${textureName}_planks
+	fi
+	if [[ $textureName == *_bone ]];
+	then
+		textureName=${textureName}_block
+	fi
+	if [[ $textureName == pythadendron ]];
+	then
+		textureName=pythadendron_planks
+	fi
+	if [[ $textureName == lacugrove ]];
+	then
+		textureName=lacugrove_planks
+	fi
+	if [[ $textureName == mossy_glowshroom ]];
+	then
+		textureName=mossy_glowshroom_planks
+	fi
+	if [[ $textureName == terminite ]];
+	then
+		textureName=terminite_block
+	fi
+	if [[ $textureName == jellyshroom ]];
+	then
+		textureName=jellyshroom_planks
+	fi
+	if [[ $textureName == tenanea ]];
+	then
+		textureName=tenanea_planks
+	fi
+	if [[ $textureName == lucernia ]];
+	then
+		textureName=lucernia_planks
+	fi
+	if [[ $textureName == thallasium ]];
+	then
+		textureName=thallasium_block
+	fi
+	if [[ $textureName == end_lotus ]];
+	then
+		textureName=end_lotus_planks
+	fi
+	printf "{\n\
+  \"variants\": {\n\
+    \"face=ceiling,facing=east,powered=false\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"y\": 270,\n\
+      \"x\": 180\n\
+    },\n\
+    \"face=ceiling,facing=east,powered=true\": {\n\
+      \"model\": \"betterend:block/${name}_pressed\",\n\
+      \"y\": 270,\n\
+      \"x\": 180\n\
+    },\n\
+    \"face=ceiling,facing=north,powered=false\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"y\": 180,\n\
+      \"x\": 180\n\
+    },\n\
+    \"face=ceiling,facing=north,powered=true\": {\n\
+      \"model\": \"betterend:block/${name}_pressed\",\n\
+      \"y\": 180,\n\
+      \"x\": 180\n\
+    },\n\
+    \"face=ceiling,facing=south,powered=false\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"x\": 180\n\
+    },\n\
+    \"face=ceiling,facing=south,powered=true\": {\n\
+      \"model\": \"betterend:block/${name}_pressed\",\n\
+      \"x\": 180\n\
+    },\n\
+    \"face=ceiling,facing=west,powered=false\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"y\": 90,\n\
+      \"x\": 180\n\
+    },\n\
+    \"face=ceiling,facing=west,powered=true\": {\n\
+      \"model\": \"betterend:block/${name}_pressed\",\n\
+      \"y\": 90,\n\
+      \"x\": 180\n\
+    },\n\
+    \"face=floor,facing=east,powered=false\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"y\": 90\n\
+    },\n\
+    \"face=floor,facing=east,powered=true\": {\n\
+      \"model\": \"betterend:block/${name}_pressed\",\n\
+      \"y\": 90\n\
+    },\n\
+    \"face=floor,facing=north,powered=false\": {\n\
+      \"model\": \"betterend:block/${name}\"\n\
+    },\n\
+    \"face=floor,facing=north,powered=true\": {\n\
+      \"model\": \"betterend:block/${name}_pressed\"\n\
+    },\n\
+    \"face=floor,facing=south,powered=false\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"y\": 180\n\
+    },\n\
+    \"face=floor,facing=south,powered=true\": {\n\
+      \"model\": \"betterend:block/${name}_pressed\",\n\
+      \"y\": 180\n\
+    },\n\
+    \"face=floor,facing=west,powered=false\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"y\": 270\n\
+    },\n\
+    \"face=floor,facing=west,powered=true\": {\n\
+      \"model\": \"betterend:block/${name}_pressed\",\n\
+      \"y\": 270\n\
+    },\n\
+    \"face=wall,facing=east,powered=false\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"y\": 90,\n\
+      \"x\": 90,\n\
+      \"uvlock\": true\n\
+    },\n\
+    \"face=wall,facing=east,powered=true\": {\n\
+      \"model\": \"betterend:block/${name}_pressed\",\n\
+      \"y\": 90,\n\
+      \"x\": 90,\n\
+      \"uvlock\": true\n\
+    },\n\
+    \"face=wall,facing=north,powered=false\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"x\": 90,\n\
+      \"uvlock\": true\n\
+    },\n\
+    \"face=wall,facing=north,powered=true\": {\n\
+      \"model\": \"betterend:block/${name}_pressed\",\n\
+      \"x\": 90,\n\
+      \"uvlock\": true\n\
+    },\n\
+    \"face=wall,facing=south,powered=false\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"y\": 180,\n\
+      \"x\": 90,\n\
+      \"uvlock\": true\n\
+    },\n\
+    \"face=wall,facing=south,powered=true\": {\n\
+      \"model\": \"betterend:block/${name}_pressed\",\n\
+      \"y\": 180,\n\
+      \"x\": 90,\n\
+      \"uvlock\": true\n\
+    },\n\
+    \"face=wall,facing=west,powered=false\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"y\": 270,\n\
+      \"x\": 90,\n\
+      \"uvlock\": true\n\
+    },\n\
+    \"face=wall,facing=west,powered=true\": {\n\
+      \"model\": \"betterend:block/${name}_pressed\",\n\
+      \"y\": 270,\n\
+      \"x\": 90,\n\
+      \"uvlock\": true\n\
+    }\n\
+  }\n\
+}" > ResourcePack/assets/betterend/blockstates/${name}.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/button\",\n\
+  \"textures\": {\n\
+    \"texture\": \"betterend:block/${textureName}\"\n\
+  }
+}" > ResourcePack/assets/betterend/models/block/${name}.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/button_pressed\",\n\
+  \"textures\": {\n\
+    \"texture\": \"betterend:block/${textureName}\"\n\
+  }
+}" > ResourcePack/assets/betterend/models/block/${name}_pressed.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/button_inventory\",\n\
+  \"textures\": {\n\
+    \"texture\": \"betterend:block/${textureName}\"\n\
+  }
+}" > ResourcePack/assets/betterend/models/block/${name}_inventory.json
+	printf "{\n\
+  \"parent\": \"betterend:block/${name}_inventory\"\n\
+}" > ResourcePack/assets/betterend/models/item/${name}.json
+done <./ItemLists/Buttons.txt

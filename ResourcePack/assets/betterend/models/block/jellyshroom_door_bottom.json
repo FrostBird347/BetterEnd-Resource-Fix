@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom",
+  "textures": {
+    "top": "betterend:block/jellyshroom_door_top",
+    "bottom": "betterend:block/jellyshroom_door_bottom"
+  }
+}
