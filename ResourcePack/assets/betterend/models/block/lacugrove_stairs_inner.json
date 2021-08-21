@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "betterend:block/lacugrove_stairs",
+    "top": "betterend:block/lacugrove_stairs",
+    "side": "betterend:block/lacugrove_stairs"
+  }
+}

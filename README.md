@@ -10,3 +10,17 @@ TODO:
 - [x] Blocks
 - [x] Verify blocks
 - [ ] Fix any broken blocks
+	- [ ] Stairs
+	- [ ] Logs
+	- [ ] Slabs
+	- [ ] Doors
+	- [ ] Trapdoors
+	- [ ] Buttons
+	- [ ] Pressure Plates
+	- [ ] Walls
+	- [ ] Grass
+	- [ ] Path
+	- [ ] Bookshelves
+	- [ ] Ladders
+	- [ ] Chests
+	- [ ] Other blocks

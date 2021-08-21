@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "betterend:block/tenanea_stairs",
+    "top": "betterend:block/tenanea_stairs",
+    "side": "betterend:block/tenanea_stairs"
+  }
+}
