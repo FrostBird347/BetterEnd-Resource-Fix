@@ -321,6 +321,38 @@ done <./ItemLists/Stairs.txt
 while read name
 do
 	textureName=$(sed 's/.\{5\}$//' <<< "$name")
+	if [[ $textureName == pythadendron ]];
+	then
+		textureName=pythadendron_planks
+	fi
+	if [[ $textureName == lacugrove ]];
+	then
+		textureName=lacugrove_planks
+	fi
+	if [[ $textureName == mossy_glowshroom ]];
+	then
+		textureName=mossy_glowshroom_planks
+	fi
+	if [[ $textureName == terminite ]];
+	then
+		textureName=terminite_block
+	fi
+	if [[ $textureName == jellyshroom ]];
+	then
+		textureName=jellyshroom_planks
+	fi
+	if [[ $textureName == tenanea ]];
+	then
+		textureName=tenanea_planks
+	fi
+	if [[ $textureName == lucernia ]];
+	then
+		textureName=lucernia_planks
+	fi
+	if [[ $textureName == thallasium ]];
+	then
+		textureName=thallasium_block
+	fi
 	blockName=$textureName
 	printf "{\n\
   \"parent\": \"minecraft:block/slab\",\n\

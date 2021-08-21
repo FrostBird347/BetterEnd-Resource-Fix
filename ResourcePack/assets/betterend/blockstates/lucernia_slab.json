@@ -4,7 +4,7 @@
       "model": "betterend:block/lucernia_slab"
     },
     "type=double": {
-      "model": "minecraft:block/lucernia"
+      "model": "minecraft:block/lucernia_planks"
     },
     "type=top": {
       "model": "betterend:block/lucernia_slab_top"

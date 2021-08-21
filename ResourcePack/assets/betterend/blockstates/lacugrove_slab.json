@@ -4,7 +4,7 @@
       "model": "betterend:block/lacugrove_slab"
     },
     "type=double": {
-      "model": "minecraft:block/lacugrove"
+      "model": "minecraft:block/lacugrove_planks"
     },
     "type=top": {
       "model": "betterend:block/lacugrove_slab_top"

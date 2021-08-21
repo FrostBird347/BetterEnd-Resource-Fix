@@ -4,7 +4,7 @@
       "model": "betterend:block/tenanea_slab"
     },
     "type=double": {
-      "model": "minecraft:block/tenanea"
+      "model": "minecraft:block/tenanea_planks"
     },
     "type=top": {
       "model": "betterend:block/tenanea_slab_top"
