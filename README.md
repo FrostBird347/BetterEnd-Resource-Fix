@@ -30,7 +30,7 @@ TODO:
 	- [x] Trapdoors
 	- [x] Buttons
 	- [x] Pressure Plates
-	- [ ] Walls
+	- [x] Walls
 	- [ ] Grass
 	- [ ] Path
 	- [ ] Bookshelves

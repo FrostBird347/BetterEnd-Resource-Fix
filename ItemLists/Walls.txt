@@ -1,0 +1,14 @@
+azure_jadestone_bricks_wall
+azure_jadestone_wall
+flavolite_bricks_wall
+flavolite_wall
+sandy_jadestone_bricks_wall
+sandy_jadestone_wall
+sulphuric_rock_bricks_wall
+sulphuric_rock_wall
+umbralith_bricks_wall
+umbralith_wall
+violecite_bricks_wall
+violecite_wall
+virid_jadestone_bricks_wall
+virid_jadestone_wall

@@ -952,3 +952,169 @@ do
   \"parent\": \"betterend:block/${name}_inventory\"\n\
 }" > ResourcePack/assets/betterend/models/item/${name}.json
 done <./ItemLists/Buttons.txt
+
+while read name
+do
+	textureName=$(sed 's/.\{5\}$//' <<< "$name")
+	if [[ $textureName == *_tree ]];
+	then
+		textureName=${textureName}_planks
+	fi
+	if [[ $textureName == *_bone ]];
+	then
+		textureName=${textureName}_block
+	fi
+	if [[ $textureName == pythadendron ]];
+	then
+		textureName=pythadendron_planks
+	fi
+	if [[ $textureName == lacugrove ]];
+	then
+		textureName=lacugrove_planks
+	fi
+	if [[ $textureName == mossy_glowshroom ]];
+	then
+		textureName=mossy_glowshroom_planks
+	fi
+	if [[ $textureName == terminite ]];
+	then
+		textureName=terminite_block
+	fi
+	if [[ $textureName == jellyshroom ]];
+	then
+		textureName=jellyshroom_planks
+	fi
+	if [[ $textureName == tenanea ]];
+	then
+		textureName=tenanea_planks
+	fi
+	if [[ $textureName == lucernia ]];
+	then
+		textureName=lucernia_planks
+	fi
+	if [[ $textureName == thallasium ]];
+	then
+		textureName=thallasium_block
+	fi
+	if [[ $textureName == end_lotus ]];
+	then
+		textureName=end_lotus_planks
+	fi
+	printf "{\n\
+  \"multipart\": [\n\
+    {\n\
+      \"when\": {\n\
+        \"up\": \"true\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_post\"\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"north\": \"low\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_side\",\n\
+        \"uvlock\": true\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"east\": \"low\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_side\",\n\
+        \"y\": 90,\n\
+        \"uvlock\": true\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"south\": \"low\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_side\",\n\
+        \"y\": 180,\n\
+        \"uvlock\": true\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"west\": \"low\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_side\",\n\
+        \"y\": 270,\n\
+        \"uvlock\": true\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"north\": \"tall\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_side_tall\",\n\
+        \"uvlock\": true\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"east\": \"tall\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_side_tall\",\n\
+        \"y\": 90,\n\
+        \"uvlock\": true\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"south\": \"tall\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_side_tall\",\n\
+        \"y\": 180,\n\
+        \"uvlock\": true\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"west\": \"tall\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_side_tall\",\n\
+        \"y\": 270,\n\
+        \"uvlock\": true\n\
+      }\n\
+    }\n\
+  ]\n\
+}" > ResourcePack/assets/betterend/blockstates/${name}.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/wall_inventory\",\n\
+  \"textures\": {\n\
+    \"wall\": \"betterend:block/${textureName}\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_inventory.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/template_wall_post\",\n\
+  \"textures\": {\n\
+    \"wall\": \"betterend:block/${textureName}\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_post.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/template_wall_side\",\n\
+  \"textures\": {\n\
+    \"wall\": \"betterend:block/${textureName}\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_side.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/template_wall_side_tall\",\n\
+  \"textures\": {\n\
+    \"wall\": \"betterend:block/${textureName}\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_side_tall.json
+	printf "{\n\
+  \"parent\": \"betterend:block/${name}_inventory\"\n\
+}" > ResourcePack/assets/betterend/models/item/${name}.json
+done <./ItemLists/Walls.txt
