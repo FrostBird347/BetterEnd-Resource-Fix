@@ -2,7 +2,7 @@
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
     "top": "betterend:block/pallidium_full_top",
-    "bottom": "betterend:block/missing_tile",
+    "bottom": "betterend:block/umbralith_7",
     "side": "betterend:block/pallidium_full_side"
   }
 }

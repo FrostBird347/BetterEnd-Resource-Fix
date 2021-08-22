@@ -1,0 +1,10 @@
+cave_moss_path
+chorus_nylium_path
+crystal_moss_path
+end_moss_path
+end_mycelium_path
+jungle_moss_path
+pink_moss_path
+shadow_grass_path
+sangnum_path
+rutiscus_path

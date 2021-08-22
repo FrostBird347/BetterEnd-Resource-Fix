@@ -4,7 +4,7 @@
       "model": "betterend:block/thallasium_slab"
     },
     "type=double": {
-      "model": "minecraft:block/thallasium_block"
+      "model": "minecraft:block/thallasium_tile"
     },
     "type=top": {
       "model": "betterend:block/thallasium_slab_top"

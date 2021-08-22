@@ -2,7 +2,7 @@
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
     "top": "betterend:block/pink_moss_top",
-    "bottom": "betterend:block/missing_tile",
+    "bottom": "minecraft:block/end_stone",
     "side": "betterend:block/pink_moss_side"
   }
 }

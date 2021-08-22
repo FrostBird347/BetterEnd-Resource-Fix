@@ -32,7 +32,7 @@ TODO:
 	- [x] Pressure Plates
 	- [x] Walls
 	- [x] Grass
-		- [ ] Grass underside
+		- [x] Grass underside
 	- [ ] Path
 	- [ ] Bookshelves
 	- [ ] Ladders

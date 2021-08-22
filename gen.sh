@@ -82,7 +82,7 @@ do
 	fi
 	if [[ $textureName == terminite ]];
 	then
-		textureName=terminite_block
+		textureName=terminite_tile
 	fi
 	if [[ $textureName == jellyshroom ]];
 	then
@@ -98,7 +98,7 @@ do
 	fi
 	if [[ $textureName == thallasium ]];
 	then
-		textureName=thallasium_block
+		textureName=thallasium_tile
 	fi
 	if [[ $textureName == end_lotus ]];
 	then
@@ -365,7 +365,7 @@ do
 	fi
 	if [[ $textureName == terminite ]];
 	then
-		textureName=terminite_block
+		textureName=terminite_tile
 	fi
 	if [[ $textureName == jellyshroom ]];
 	then
@@ -381,7 +381,7 @@ do
 	fi
 	if [[ $textureName == thallasium ]];
 	then
-		textureName=thallasium_block
+		textureName=thallasium_tile
 	fi
 	if [[ $textureName == end_lotus ]];
 	then
@@ -478,7 +478,7 @@ do
 	fi
 	if [[ $textureName == terminite ]];
 	then
-		textureName=terminite_block
+		textureName=terminite_tile
 	fi
 	if [[ $textureName == jellyshroom ]];
 	then
@@ -494,7 +494,7 @@ do
 	fi
 	if [[ $textureName == thallasium ]];
 	then
-		textureName=thallasium_block
+		textureName=thallasium_tile
 	fi
 	if [[ $textureName == end_lotus ]];
 	then
@@ -790,7 +790,7 @@ do
 	fi
 	if [[ $textureName == terminite ]];
 	then
-		textureName=terminite_block
+		textureName=terminite_tile
 	fi
 	if [[ $textureName == jellyshroom ]];
 	then
@@ -806,7 +806,7 @@ do
 	fi
 	if [[ $textureName == thallasium ]];
 	then
-		textureName=thallasium_block
+		textureName=thallasium_tile
 	fi
 	if [[ $textureName == end_lotus ]];
 	then
@@ -978,7 +978,7 @@ do
 	fi
 	if [[ $textureName == terminite ]];
 	then
-		textureName=terminite_block
+		textureName=terminite_tile
 	fi
 	if [[ $textureName == jellyshroom ]];
 	then
@@ -994,7 +994,7 @@ do
 	fi
 	if [[ $textureName == thallasium ]];
 	then
-		textureName=thallasium_block
+		textureName=thallasium_tile
 	fi
 	if [[ $textureName == end_lotus ]];
 	then
@@ -1121,6 +1121,11 @@ done <./ItemLists/Walls.txt
 
 while read name
 do
+	bottomTexture="minecraft:block/end_stone"
+	if [[ $name == *pallidium* ]];
+	then
+		bottomTexture="betterend:block/umbralith_7"
+	fi
 	printf "{\n\
   \"variants\": {\n\
     \"\": {\n\
@@ -1132,7 +1137,7 @@ do
   \"parent\": \"minecraft:block/cube_bottom_top\",\n\
   \"textures\": {\n\
     \"top\": \"betterend:block/${name}_top\",\n\
-    \"bottom\": \"betterend:block/missing_tile\",\n\
+    \"bottom\": \"${bottomTexture}\",\n\
     \"side\": \"betterend:block/${name}_side\"\n\
   }\n\
 }" > ResourcePack/assets/betterend/models/block/${name}.json
