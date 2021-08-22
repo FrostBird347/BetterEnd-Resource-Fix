@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "betterend:block/jellyshroom_bark"
+    "end": "betterend:block/jellyshroom_log_side",
+    "side": "betterend:block/jellyshroom_log_side"
   }
 }

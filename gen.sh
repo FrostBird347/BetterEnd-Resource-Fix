@@ -1203,4 +1203,32 @@ do
 }" > ResourcePack/assets/betterend/models/block/${name}.json
 done <./ItemLists/Path.txt
 
+while read name
+do
+	textureName=$(sed 's/.\{5\}$//' <<< "$name")
+	printf "{\n\
+  \"variants\": {\n\
+    \"axis=x\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"x\": 90,\n\
+      \"y\": 90\n\
+    },\n\
+    \"axis=y\": {\n\
+      \"model\": \"betterend:block/${name}\"\n\
+    },\n\
+    \"axis=z\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"x\": 90\n\
+    }\n\
+  }\n\
+}" > ResourcePack/assets/betterend/blockstates/${name}.json
+	printf "{\n\
+  \"parent\": \"minecraft:block/cube_column\",\n\
+  \"textures\": {\n\
+    \"end\": \"betterend:block/${textureName}_log_side\",\n\
+    \"side\": \"betterend:block/${textureName}_log_side\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}.json
+done <./ItemLists/Bark.txt
+
 

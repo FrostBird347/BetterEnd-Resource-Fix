@@ -1,0 +1,13 @@
+dragon_tree_stripped_bark
+end_lotus_bark
+end_lotus_stripped_bark
+helix_tree_bark
+helix_tree_stripped_bark
+jellyshroom_bark
+jellyshroom_stripped_bark
+lacugrove_stripped_bark
+lucernia_stripped_bark
+tenanea_bark
+tenanea_stripped_bark
+umbrella_tree_bark
+umbrella_tree_stripped_bark

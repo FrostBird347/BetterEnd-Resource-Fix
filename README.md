@@ -34,6 +34,7 @@ TODO:
 	- [x] Grass
 		- [x] Grass underside
 	- [x] Path
+	- [x] Bark
 	- [ ] Bookshelves
 	- [ ] Ladders
 	- [ ] Chests

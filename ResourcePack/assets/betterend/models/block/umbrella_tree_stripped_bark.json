@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "betterend:block/umbrella_tree_stripped_bark"
+    "end": "betterend:block/umbrella_tree_stripped_log_side",
+    "side": "betterend:block/umbrella_tree_stripped_log_side"
   }
 }
