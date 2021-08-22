@@ -1000,7 +1000,19 @@ do
 	then
 		textureName=end_lotus_planks
 	fi
-	printf "{\n\
+	if [[ $name == *violecite_bricks_wall* ]];
+	then
+		printf "{\n\
+  \"parent\": \"minecraft:block/wall_inventory\",\n\
+  \"textures\": {\n\
+    \"wall\": \"betterend:block/${textureName}\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_inventory.json
+		printf "{\n\
+  \"parent\": \"betterend:block/${name}_inventory\"\n\
+}" > ResourcePack/assets/betterend/models/item/${name}.json
+	else
+		printf "{\n\
   \"multipart\": [\n\
     {\n\
       \"when\": {\n\
@@ -1090,33 +1102,34 @@ do
     }\n\
   ]\n\
 }" > ResourcePack/assets/betterend/blockstates/${name}.json
-	printf "{\n\
+		printf "{\n\
   \"parent\": \"minecraft:block/wall_inventory\",\n\
   \"textures\": {\n\
     \"wall\": \"betterend:block/${textureName}\"\n\
   }\n\
 }" > ResourcePack/assets/betterend/models/block/${name}_inventory.json
-	printf "{\n\
+		printf "{\n\
   \"parent\": \"minecraft:block/template_wall_post\",\n\
   \"textures\": {\n\
     \"wall\": \"betterend:block/${textureName}\"\n\
   }\n\
 }" > ResourcePack/assets/betterend/models/block/${name}_post.json
-	printf "{\n\
+		printf "{\n\
   \"parent\": \"minecraft:block/template_wall_side\",\n\
   \"textures\": {\n\
     \"wall\": \"betterend:block/${textureName}\"\n\
   }\n\
 }" > ResourcePack/assets/betterend/models/block/${name}_side.json
-	printf "{\n\
+		printf "{\n\
   \"parent\": \"minecraft:block/template_wall_side_tall\",\n\
   \"textures\": {\n\
     \"wall\": \"betterend:block/${textureName}\"\n\
   }\n\
 }" > ResourcePack/assets/betterend/models/block/${name}_side_tall.json
-	printf "{\n\
+		printf "{\n\
   \"parent\": \"betterend:block/${name}_inventory\"\n\
 }" > ResourcePack/assets/betterend/models/item/${name}.json
+	fi
 done <./ItemLists/Walls.txt
 
 while read name
@@ -1142,3 +1155,52 @@ do
   }\n\
 }" > ResourcePack/assets/betterend/models/block/${name}.json
 done <./ItemLists/Grass.txt
+
+while read name
+do
+	textureName=$(sed 's/.\{5\}$//' <<< "$name")
+	printf "{\n\
+  \"variants\": {\n\
+    \"\": [\n\
+      {\n\
+        \"model\": \"betterend:block/${name}\"\n\
+      },\n\
+      {\n\
+        \"model\": \"betterend:block/${name}\",\n\
+        \"y\": 90\n\
+      },\n\
+      {\n\
+        \"model\": \"betterend:block/${name}\",\n\
+        \"y\": 180\n\
+      },\n\
+      {\n\
+        \"model\": \"betterend:block/${name}\",\n\
+        \"y\": 270\n\
+      }\n\
+    ]\n\
+  }\n\
+}" > ResourcePack/assets/betterend/blockstates/${name}.json
+	printf "{   \"parent\": \"minecraft:block/block\",\n\
+    \"textures\": {\n\
+        \"particle\": \"betterend:block/${name}_top\",\n\
+        \"top\": \"betterend:block/${name}_top\",\n\
+        \"side\": \"betterend:block/${textureName}_side\",\n\
+        \"bottom\": \"minecraft:block/end_stone\"\n\
+    },\n\
+    \"elements\": [\n\
+        {   \"from\": [ 0, 0, 0 ],\n\
+            \"to\": [ 16, 15, 16 ],\n\
+            \"faces\": {\n\
+                \"down\":  { \"uv\": [ 0, 0, 16, 16 ], \"texture\": \"#bottom\", \"cullface\": \"down\" },\n\
+                \"up\":    { \"uv\": [ 0, 0, 16, 16 ], \"texture\": \"#top\" },\n\
+                \"north\": { \"uv\": [ 0, 1, 16, 16 ], \"texture\": \"#side\", \"cullface\": \"north\" },\n\
+                \"south\": { \"uv\": [ 0, 1, 16, 16 ], \"texture\": \"#side\", \"cullface\": \"south\" },\n\
+                \"west\":  { \"uv\": [ 0, 1, 16, 16 ], \"texture\": \"#side\", \"cullface\": \"west\" },\n\
+                \"east\":  { \"uv\": [ 0, 1, 16, 16 ], \"texture\": \"#side\", \"cullface\": \"east\" }\n\
+            }\n\
+        }\n\
+    ]\n\
+}" > ResourcePack/assets/betterend/models/block/${name}.json
+done <./ItemLists/Path.txt
+
+

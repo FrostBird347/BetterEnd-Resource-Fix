@@ -33,7 +33,7 @@ TODO:
 	- [x] Walls
 	- [x] Grass
 		- [x] Grass underside
-	- [ ] Path
+	- [x] Path
 	- [ ] Bookshelves
 	- [ ] Ladders
 	- [ ] Chests
