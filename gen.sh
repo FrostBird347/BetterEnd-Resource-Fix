@@ -1231,4 +1231,15 @@ do
 }" > ResourcePack/assets/betterend/models/block/${name}.json
 done <./ItemLists/Bark.txt
 
+while read name
+do
+	textureName=$(sed 's/.\{5\}$//' <<< "$name")
+	printf "{\n\
+  \"parent\": \"minecraft:block/cross\",\n\
+  \"textures\": {\n\
+    \"cross\": \"betterend:block/${name}\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}.json
+done <./ItemLists/Saplings.txt
+
 

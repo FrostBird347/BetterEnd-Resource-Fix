@@ -43,6 +43,6 @@ TODO:
 	- [ ] Crafting Tables
 	- [ ] Fences
 	- [ ] Gates
-	- [ ] Saplings
+	- [x] Saplings
 	- [ ] Lanterns
 	- [ ] Other Blocks

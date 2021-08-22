@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cross",
   "textures": {
-    "all": "betterend:block/umbrella_tree_sapling"
+    "cross": "betterend:block/umbrella_tree_sapling"
   }
 }
