@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "betterend:block/lacugrove_bookshelf"
+    "end": "betterend:block/lacugrove_planks",
+    "side": "betterend:block/lacugrove_bookshelf"
   }
 }

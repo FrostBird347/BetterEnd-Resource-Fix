@@ -1,0 +1,10 @@
+dragon_tree_bookshelf
+end_lotus_bookshelf
+helix_tree_bookshelf
+jellyshroom_bookshelf
+lacugrove_bookshelf
+lucernia_bookshelf
+mossy_glowshroom_bookshelf
+pythadendron_bookshelf
+tenanea_bookshelf
+umbrella_tree_bookshelf

@@ -12,7 +12,6 @@ blackstone_lantern
 diorite_lantern
 diorite_pedestal
 dragon_tree_barrel
-dragon_tree_bookshelf
 dragon_tree_chest
 dragon_tree_composter
 dragon_tree_crafting_table
@@ -22,7 +21,6 @@ dragon_tree_ladder
 enchanted_membrane
 enchanted_petal
 end_lotus_barrel
-end_lotus_bookshelf
 end_lotus_chest
 end_lotus_composter
 end_lotus_crafting_table
@@ -40,7 +38,6 @@ flavolite_pillar
 granite_lantern
 granite_pedestal
 helix_tree_barrel
-helix_tree_bookshelf
 helix_tree_chest
 helix_tree_composter
 helix_tree_crafting_table
@@ -82,7 +79,6 @@ iron_bulb_lantern_red
 iron_bulb_lantern_white
 iron_bulb_lantern_yellow
 jellyshroom_barrel
-jellyshroom_bookshelf
 jellyshroom_cap_purple
 jellyshroom_chest
 jellyshroom_composter
@@ -91,7 +87,6 @@ jellyshroom_fence
 jellyshroom_gate
 jellyshroom_ladder
 lacugrove_barrel
-lacugrove_bookshelf
 lacugrove_chest
 lacugrove_composter
 lacugrove_crafting_table
@@ -99,7 +94,6 @@ lacugrove_fence
 lacugrove_gate
 lacugrove_ladder
 lucernia_barrel
-lucernia_bookshelf
 lucernia_chest
 lucernia_composter
 lucernia_crafting_table
@@ -107,7 +101,6 @@ lucernia_fence
 lucernia_gate
 lucernia_ladder
 mossy_glowshroom_barrel
-mossy_glowshroom_bookshelf
 mossy_glowshroom_chest
 mossy_glowshroom_composter
 mossy_glowshroom_crafting_table
@@ -117,7 +110,6 @@ mossy_glowshroom_ladder
 neon_cactus_block
 purpur_lantern
 pythadendron_barrel
-pythadendron_bookshelf
 pythadendron_chest
 pythadendron_composter
 pythadendron_crafting_table
@@ -143,7 +135,6 @@ sulphuric_rock_lantern
 sulphuric_rock_pedestal
 sulphuric_rock_pillar
 tenanea_barrel
-tenanea_bookshelf
 tenanea_chest
 tenanea_composter
 tenanea_crafting_table
@@ -197,7 +188,6 @@ umbralith_pedestal
 umbralith_pillar
 umbralith_polished
 umbrella_tree_barrel
-umbrella_tree_bookshelf
 umbrella_tree_chest
 umbrella_tree_composter
 umbrella_tree_crafting_table

@@ -1242,4 +1242,14 @@ do
 }" > ResourcePack/assets/betterend/models/block/${name}.json
 done <./ItemLists/Saplings.txt
 
-
+while read name
+do
+	textureName=$(sed 's/.\{10\}$//' <<< "$name")
+	printf "{\n\
+  \"parent\": \"minecraft:block/cube_column\",\n\
+  \"textures\": {\n\
+    \"end\": \"betterend:block/${textureName}_planks\",\n\
+    \"side\": \"betterend:block/${name}\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/block/${name}.json
+done <./ItemLists/Bookshelves.txt

@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "betterend:block/dragon_tree_bookshelf"
+    "end": "betterend:block/dragon_tree_planks",
+    "side": "betterend:block/dragon_tree_bookshelf"
   }
 }

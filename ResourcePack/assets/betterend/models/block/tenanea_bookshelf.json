@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "betterend:block/tenanea_bookshelf"
+    "end": "betterend:block/tenanea_planks",
+    "side": "betterend:block/tenanea_bookshelf"
   }
 }
