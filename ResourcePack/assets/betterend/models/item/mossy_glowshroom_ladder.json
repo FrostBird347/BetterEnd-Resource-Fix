@@ -1,3 +1,6 @@
 {
-  "parent": "betterend:block/mossy_glowshroom_ladder"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "betterend:block/mossy_glowshroom_ladder"
+  }
 }

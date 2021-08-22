@@ -17,7 +17,6 @@ dragon_tree_composter
 dragon_tree_crafting_table
 dragon_tree_fence
 dragon_tree_gate
-dragon_tree_ladder
 enchanted_membrane
 enchanted_petal
 end_lotus_barrel
@@ -26,7 +25,6 @@ end_lotus_composter
 end_lotus_crafting_table
 end_lotus_fence
 end_lotus_gate
-end_lotus_ladder
 end_stone_furnace
 end_stone_lantern
 endstone_flower_pot
@@ -43,7 +41,6 @@ helix_tree_composter
 helix_tree_crafting_table
 helix_tree_fence
 helix_tree_gate
-helix_tree_ladder
 hydralux_petal_block_black
 hydralux_petal_block_blue
 hydralux_petal_block_brown
@@ -85,28 +82,24 @@ jellyshroom_composter
 jellyshroom_crafting_table
 jellyshroom_fence
 jellyshroom_gate
-jellyshroom_ladder
 lacugrove_barrel
 lacugrove_chest
 lacugrove_composter
 lacugrove_crafting_table
 lacugrove_fence
 lacugrove_gate
-lacugrove_ladder
 lucernia_barrel
 lucernia_chest
 lucernia_composter
 lucernia_crafting_table
 lucernia_fence
 lucernia_gate
-lucernia_ladder
 mossy_glowshroom_barrel
 mossy_glowshroom_chest
 mossy_glowshroom_composter
 mossy_glowshroom_crafting_table
 mossy_glowshroom_fence
 mossy_glowshroom_gate
-mossy_glowshroom_ladder
 neon_cactus_block
 purpur_lantern
 pythadendron_barrel
@@ -115,7 +108,6 @@ pythadendron_composter
 pythadendron_crafting_table
 pythadendron_fence
 pythadendron_gate
-pythadendron_ladder
 quartz_lantern
 sandy_jadestone_flower_pot
 sandy_jadestone_furnace
@@ -140,7 +132,6 @@ tenanea_composter
 tenanea_crafting_table
 tenanea_fence
 tenanea_gate
-tenanea_ladder
 terminite_anvil
 terminite_bars
 terminite_bulb_lantern
@@ -193,7 +184,6 @@ umbrella_tree_composter
 umbrella_tree_crafting_table
 umbrella_tree_fence
 umbrella_tree_gate
-umbrella_tree_ladder
 umbrella_tree_membrane
 violecite_flower_pot
 violecite_furnace

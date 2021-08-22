@@ -1253,3 +1253,50 @@ do
   }\n\
 }" > ResourcePack/assets/betterend/models/block/${name}.json
 done <./ItemLists/Bookshelves.txt
+
+while read name
+do
+	textureName=$(sed 's/.\{7\}$//' <<< "$name")
+	printf "{\n\
+  \"variants\": {\n\
+    \"facing=east\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"y\": 90\n\
+    },\n\
+    \"facing=north\": {\n\
+      \"model\": \"betterend:block/${name}\"\n\
+    },\n\
+    \"facing=south\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"y\": 180\n\
+    },\n\
+    \"facing=west\": {\n\
+      \"model\": \"betterend:block/${name}\",\n\
+      \"y\": 270\n\
+    }\n\
+  }\n\
+}" > ResourcePack/assets/betterend/blockstates/${name}.json
+	printf "{\n\
+    \"ambientocclusion\": false,\n\
+    \"textures\": {\n\
+        \"particle\": \"block/${name}\",\n\
+        \"texture\": \"block/${name}\"\n\
+    },\n\
+    \"elements\": [\n\
+        {   \"from\": [ 0, 0, 15.2 ],\n\
+            \"to\": [ 16, 16, 15.2 ],\n\
+            \"shade\": false,\n\
+            \"faces\": {\n\
+                \"north\": { \"uv\": [ 0, 0, 16, 16 ], \"texture\": \"#texture\" },\n\
+                \"south\": { \"uv\": [ 16, 0, 0, 16 ], \"texture\": \"#texture\" }\n\
+            }\n\
+        }\n\
+    ]\n\
+}" > ResourcePack/assets/betterend/models/block/${name}.json
+	printf "{\n\
+  \"parent\": \"minecraft:item/generated\",\n\
+  \"textures\": {\n\
+    \"layer0\": \"betterend:block/${name}\"\n\
+  }\n\
+}" > ResourcePack/assets/betterend/models/item/${name}.json
+done <./ItemLists/Ladders.txt
