@@ -36,8 +36,8 @@ TODO:
 	- [x] Path
 	- [x] Bark
 	- [x] Bookshelves
-	- [x] Ladders
-	- [ ] Chests
+	- [ ] Ladders
+	- [x] Chests
 	- [ ] Barrels
 	- [ ] Composters
 	- [ ] Crafting Tables
