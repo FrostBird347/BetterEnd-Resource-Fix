@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_all",
+    "textures": {
+        "particle": "betterend:block/jellyshroom_planks",
+        "all": "betterend:block/jellyshroom_planks"
+    }
+}
