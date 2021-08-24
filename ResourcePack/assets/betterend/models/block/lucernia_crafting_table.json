@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "betterend:block/lucernia_crafting_table"
+    "particle": "betterend:block/lucernia_crafting_table_front",
+    "north": "betterend:block/lucernia_crafting_table_front",
+    "south": "betterend:block/lucernia_crafting_table_side",
+    "east": "betterend:block/lucernia_crafting_table_side",
+    "west": "betterend:block/lucernia_crafting_table_front",
+    "up": "betterend:block/lucernia_crafting_table_top",
+    "down": "betterend:block/lucernia_planks"
   }
 }

@@ -1,0 +1,10 @@
+dragon_tree_crafting_table
+end_lotus_crafting_table
+helix_tree_crafting_table
+jellyshroom_crafting_table
+lacugrove_crafting_table
+lucernia_crafting_table
+mossy_glowshroom_crafting_table
+pythadendron_crafting_table
+tenanea_crafting_table
+umbrella_tree_crafting_table

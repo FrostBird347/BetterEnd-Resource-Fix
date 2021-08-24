@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "betterend:block/lacugrove_crafting_table"
+    "particle": "betterend:block/lacugrove_crafting_table_front",
+    "north": "betterend:block/lacugrove_crafting_table_front",
+    "south": "betterend:block/lacugrove_crafting_table_side",
+    "east": "betterend:block/lacugrove_crafting_table_side",
+    "west": "betterend:block/lacugrove_crafting_table_front",
+    "up": "betterend:block/lacugrove_crafting_table_top",
+    "down": "betterend:block/lacugrove_planks"
   }
 }

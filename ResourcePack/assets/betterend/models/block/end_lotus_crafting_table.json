@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "betterend:block/end_lotus_crafting_table"
+    "particle": "betterend:block/end_lotus_crafting_table_front",
+    "north": "betterend:block/end_lotus_crafting_table_front",
+    "south": "betterend:block/end_lotus_crafting_table_side",
+    "east": "betterend:block/end_lotus_crafting_table_side",
+    "west": "betterend:block/end_lotus_crafting_table_front",
+    "up": "betterend:block/end_lotus_crafting_table_top",
+    "down": "betterend:block/end_lotus_planks"
   }
 }

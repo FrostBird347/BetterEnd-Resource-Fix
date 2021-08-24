@@ -41,7 +41,8 @@ TODO:
 	- [ ] Barrels
 	- [x] Composters
 		- [ ] Verified
-	- [ ] Crafting Tables
+	- [x] Crafting Tables
+		- [ ] Verified
 	- [ ] Fences
 	- [ ] Gates
 	- [x] Saplings

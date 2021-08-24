@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "betterend:block/pythadendron_crafting_table"
+    "particle": "betterend:block/pythadendron_crafting_table_front",
+    "north": "betterend:block/pythadendron_crafting_table_front",
+    "south": "betterend:block/pythadendron_crafting_table_side",
+    "east": "betterend:block/pythadendron_crafting_table_side",
+    "west": "betterend:block/pythadendron_crafting_table_front",
+    "up": "betterend:block/pythadendron_crafting_table_top",
+    "down": "betterend:block/pythadendron_planks"
   }
 }

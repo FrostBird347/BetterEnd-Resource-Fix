@@ -1,6 +1,12 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube",
   "textures": {
-    "all": "betterend:block/helix_tree_crafting_table"
+    "particle": "betterend:block/helix_tree_crafting_table_front",
+    "north": "betterend:block/helix_tree_crafting_table_front",
+    "south": "betterend:block/helix_tree_crafting_table_side",
+    "east": "betterend:block/helix_tree_crafting_table_side",
+    "west": "betterend:block/helix_tree_crafting_table_front",
+    "up": "betterend:block/helix_tree_crafting_table_top",
+    "down": "betterend:block/helix_tree_planks"
   }
 }
