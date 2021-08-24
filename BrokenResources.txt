@@ -13,7 +13,6 @@ diorite_lantern
 diorite_pedestal
 dragon_tree_barrel
 dragon_tree_chest
-dragon_tree_composter
 dragon_tree_crafting_table
 dragon_tree_fence
 dragon_tree_gate
@@ -21,7 +20,6 @@ enchanted_membrane
 enchanted_petal
 end_lotus_barrel
 end_lotus_chest
-end_lotus_composter
 end_lotus_crafting_table
 end_lotus_fence
 end_lotus_gate
@@ -37,7 +35,6 @@ granite_lantern
 granite_pedestal
 helix_tree_barrel
 helix_tree_chest
-helix_tree_composter
 helix_tree_crafting_table
 helix_tree_fence
 helix_tree_gate
@@ -78,25 +75,21 @@ iron_bulb_lantern_yellow
 jellyshroom_barrel
 jellyshroom_cap_purple
 jellyshroom_chest
-jellyshroom_composter
 jellyshroom_crafting_table
 jellyshroom_fence
 jellyshroom_gate
 lacugrove_barrel
 lacugrove_chest
-lacugrove_composter
 lacugrove_crafting_table
 lacugrove_fence
 lacugrove_gate
 lucernia_barrel
 lucernia_chest
-lucernia_composter
 lucernia_crafting_table
 lucernia_fence
 lucernia_gate
 mossy_glowshroom_barrel
 mossy_glowshroom_chest
-mossy_glowshroom_composter
 mossy_glowshroom_crafting_table
 mossy_glowshroom_fence
 mossy_glowshroom_gate
@@ -104,7 +97,6 @@ neon_cactus_block
 purpur_lantern
 pythadendron_barrel
 pythadendron_chest
-pythadendron_composter
 pythadendron_crafting_table
 pythadendron_fence
 pythadendron_gate
@@ -128,7 +120,6 @@ sulphuric_rock_pedestal
 sulphuric_rock_pillar
 tenanea_barrel
 tenanea_chest
-tenanea_composter
 tenanea_crafting_table
 tenanea_fence
 tenanea_gate
@@ -180,7 +171,6 @@ umbralith_pillar
 umbralith_polished
 umbrella_tree_barrel
 umbrella_tree_chest
-umbrella_tree_composter
 umbrella_tree_crafting_table
 umbrella_tree_fence
 umbrella_tree_gate

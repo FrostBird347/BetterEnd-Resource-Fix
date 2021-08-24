@@ -1366,3 +1366,295 @@ do
   \"parent\": \"betterend:block/${name}\"\n\
 }" > ResourcePack/assets/betterend/models/item/${name}.json
 done <./ItemLists/Chests.txt
+
+while read name
+do
+	textureName=$(sed 's/.\{10\}$//' <<< "$name")
+	if [[ $textureName == *_tree ]];
+	then
+		textureName=${textureName}_planks
+	fi
+	if [[ $textureName == *_bone ]];
+	then
+		textureName=${textureName}_block
+	fi
+	if [[ $textureName == pythadendron ]];
+	then
+		textureName=pythadendron_planks
+	fi
+	if [[ $textureName == lacugrove ]];
+	then
+		textureName=lacugrove_planks
+	fi
+	if [[ $textureName == mossy_glowshroom ]];
+	then
+		textureName=mossy_glowshroom_planks
+	fi
+	if [[ $textureName == terminite ]];
+	then
+		textureName=terminite_tile
+	fi
+	if [[ $textureName == jellyshroom ]];
+	then
+		textureName=jellyshroom_planks
+	fi
+	if [[ $textureName == tenanea ]];
+	then
+		textureName=tenanea_planks
+	fi
+	if [[ $textureName == lucernia ]];
+	then
+		textureName=lucernia_planks
+	fi
+	if [[ $textureName == thallasium ]];
+	then
+		textureName=thallasium_tile
+	fi
+	if [[ $textureName == end_lotus ]];
+	then
+		textureName=end_lotus_planks
+	fi
+	printf "{\n\
+  \"multipart\": [\n\
+    {\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}\"\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"level\": \"1\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_contents1\"\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"level\": \"2\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_contents2\"\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"level\": \"3\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_contents3\"\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"level\": \"4\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_contents4\"\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"level\": \"5\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_contents5\"\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"level\": \"6\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_contents6\"\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"level\": \"7\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_contents7\"\n\
+      }\n\
+    },\n\
+    {\n\
+      \"when\": {\n\
+        \"level\": \"8\"\n\
+      },\n\
+      \"apply\": {\n\
+        \"model\": \"betterend:block/${name}_contents_ready\"\n\
+      }\n\
+    }\n\
+  ]\n\
+}" > ResourcePack/assets/betterend/blockstates/${name}.json
+	printf "{\n\
+    \"parent\": \"block/block\",\n\
+    \"textures\": {\n\
+        \"particle\": \"betterend:block/${name}_side\",\n\
+        \"top\": \"betterend:block/${name}_top\",\n\
+        \"bottom\": \"betterend:block/${name}_bottom\",\n\
+        \"side\": \"betterend:block/${name}_side\",\n\
+        \"inside\": \"betterend:block/${name}_bottom\"\n\
+    },\n\
+    \"elements\": [\n\
+        {   \"from\": [ 0, 0, 0 ],\n\
+            \"to\": [ 16, 2, 16 ],\n\
+            \"faces\": {\n\
+                \"up\":    { \"texture\": \"#inside\", \"cullface\": \"up\" },\n\
+                \"down\":  { \"texture\": \"#bottom\", \"cullface\": \"down\" }\n\
+            }\n\
+        },\n\
+        {   \"from\": [ 0, 0, 0 ],\n\
+            \"to\": [ 2, 16, 16 ],\n\
+            \"faces\": {\n\
+                \"up\":    { \"texture\": \"#top\", \"cullface\": \"up\" },\n\
+                \"north\": { \"texture\": \"#side\", \"cullface\": \"north\" },\n\
+                \"south\": { \"texture\": \"#side\", \"cullface\": \"south\" },\n\
+                \"west\":  { \"texture\": \"#side\", \"cullface\": \"west\" },\n\
+                \"east\":  { \"texture\": \"#side\", \"cullface\": \"up\" }\n\
+            }\n\
+        },\n\
+        {   \"from\": [ 14, 0, 0 ],\n\
+            \"to\": [ 16, 16, 16 ],\n\
+            \"faces\": {\n\
+                \"up\":    { \"texture\": \"#top\", \"cullface\": \"up\" },\n\
+                \"north\": { \"texture\": \"#side\", \"cullface\": \"north\" },\n\
+                \"south\": { \"texture\": \"#side\", \"cullface\": \"south\" },\n\
+                \"west\":  { \"texture\": \"#side\", \"cullface\": \"up\" },\n\
+                \"east\":  { \"texture\": \"#side\", \"cullface\": \"east\" }\n\
+            }\n\
+        },\n\
+        {   \"from\": [ 2, 0, 0 ],\n\
+            \"to\": [ 14, 16, 2 ],\n\
+            \"faces\": {\n\
+                \"up\":    { \"texture\": \"#top\", \"cullface\": \"up\" },\n\
+                \"north\": { \"texture\": \"#side\", \"cullface\": \"north\" },\n\
+                \"south\": { \"texture\": \"#side\", \"cullface\": \"up\" }\n\
+            }\n\
+        },\n\
+        {   \"from\": [ 2, 0, 14 ],\n\
+            \"to\": [ 14, 16, 16 ],\n\
+            \"faces\": {\n\
+                \"up\":    { \"texture\": \"#top\", \"cullface\": \"up\" },\n\
+                \"north\": { \"texture\": \"#side\", \"cullface\": \"up\" },\n\
+                \"south\": { \"texture\": \"#side\", \"cullface\": \"south\" }\n\
+            }\n\
+        }\n\
+    ]\n\
+}" > ResourcePack/assets/betterend/models/block/${name}.json
+	printf "{\n\
+    \"textures\": {\n\
+        \"particle\": \"block/composter_compost\",\n\
+        \"inside\": \"block/composter_compost\"\n\
+    },\n\
+    \"elements\": [\n\
+        {   \"from\": [ 2, 0, 2 ],\n\
+            \"to\": [ 14, 3, 14 ],\n\
+            \"faces\": {\n\
+                \"up\": { \"texture\": \"#inside\", \"cullface\": \"up\" }\n\
+            }\n\
+        }\n\
+    ]\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_contents1.json
+	printf "{\n\
+    \"textures\": {\n\
+        \"particle\": \"block/composter_compost\",\n\
+        \"inside\": \"block/composter_compost\"\n\
+    },\n\
+    \"elements\": [\n\
+        {   \"from\": [ 2, 0, 2 ],\n\
+            \"to\": [ 14, 5, 14 ],\n\
+            \"faces\": {\n\
+                \"up\": { \"texture\": \"#inside\", \"cullface\": \"up\" }\n\
+            }\n\
+        }\n\
+    ]\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_contents2.json
+	printf "{\n\
+    \"textures\": {\n\
+        \"particle\": \"block/composter_compost\",\n\
+        \"inside\": \"block/composter_compost\"\n\
+    },\n\
+    \"elements\": [\n\
+        {   \"from\": [ 2, 0, 2 ],\n\
+            \"to\": [ 14, 7, 14 ],\n\
+            \"faces\": {\n\
+                \"up\": { \"texture\": \"#inside\", \"cullface\": \"up\" }\n\
+            }\n\
+        }\n\
+    ]\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_contents3.json
+	printf "{\n\
+    \"textures\": {\n\
+        \"particle\": \"block/composter_compost\",\n\
+        \"inside\": \"block/composter_compost\"\n\
+    },\n\
+    \"elements\": [\n\
+        {   \"from\": [ 2, 0, 2 ],\n\
+            \"to\": [ 14, 9, 14 ],\n\
+            \"faces\": {\n\
+                \"up\": { \"texture\": \"#inside\", \"cullface\": \"up\" }\n\
+            }\n\
+        }\n\
+    ]\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_contents4.json
+	printf "{\n\
+    \"textures\": {\n\
+        \"particle\": \"block/composter_compost\",\n\
+        \"inside\": \"block/composter_compost\"\n\
+    },\n\
+    \"elements\": [\n\
+        {   \"from\": [ 2, 0, 2 ],\n\
+            \"to\": [ 14, 11, 14 ],\n\
+            \"faces\": {\n\
+                \"up\": { \"texture\": \"#inside\", \"cullface\": \"up\" }\n\
+            }\n\
+        }\n\
+    ]\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_contents5.json
+	printf "{\n\
+    \"textures\": {\n\
+        \"particle\": \"block/composter_compost\",\n\
+        \"inside\": \"block/composter_compost\"\n\
+    },\n\
+    \"elements\": [\n\
+        {   \"from\": [ 2, 0, 2 ],\n\
+            \"to\": [ 14, 13, 14 ],\n\
+            \"faces\": {\n\
+                \"up\": { \"texture\": \"#inside\", \"cullface\": \"up\" }\n\
+            }\n\
+        }\n\
+    ]\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_contents6.json
+	printf "{\n\
+    \"textures\": {\n\
+        \"particle\": \"block/composter_compost\",\n\
+        \"inside\": \"block/composter_compost\"\n\
+    },\n\
+    \"elements\": [\n\
+        {   \"from\": [ 2, 0, 2 ],\n\
+            \"to\": [ 14, 15, 14 ],\n\
+            \"faces\": {\n\
+                \"up\": { \"texture\": \"#inside\", \"cullface\": \"up\" }\n\
+            }\n\
+        }\n\
+    ]\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_contents7.json
+	printf "{\n\
+    \"textures\": {\n\
+        \"particle\": \"block/composter_compost\",\n\
+        \"inside\": \"block/composter_ready\"\n\
+    },\n\
+    \"elements\": [\n\
+        {   \"from\": [ 2, 0, 2 ],\n\
+            \"to\": [ 14, 15, 14 ],\n\
+            \"faces\": {\n\
+                \"up\": { \"texture\": \"#inside\", \"cullface\": \"up\" }\n\
+            }\n\
+        }\n\
+    ]\n\
+}" > ResourcePack/assets/betterend/models/block/${name}_contents7.json
+	printf "{\n\
+  \"parent\": \"betterend:block/${name}\"\n\
+}" > ResourcePack/assets/betterend/models/item/${name}.json
+done <./ItemLists/Composters.txt

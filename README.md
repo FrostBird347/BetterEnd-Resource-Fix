@@ -39,7 +39,8 @@ TODO:
 	- [ ] Ladders
 	- [x] Chests
 	- [ ] Barrels
-	- [ ] Composters
+	- [x] Composters
+		- [ ] Verified
 	- [ ] Crafting Tables
 	- [ ] Fences
 	- [ ] Gates
