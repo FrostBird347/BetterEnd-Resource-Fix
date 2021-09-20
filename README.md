@@ -1,3 +1,9 @@
+# ![WARNING: ](https://via.placeholder.com/25/ff0000/000000?text=+) This project has been abandoned ![ ](https://via.placeholder.com/25/ff0000/000000?text=+)
+
+Due to both a lack of time and motivation, I am no longer working on this.
+
+Although it is not finished, I did manage to fix most blocks/items and would thus recommend using this repo instead of starting from scratch.
+
 # [BetterEnd](https://github.com/paulevsGitch/BetterEnd) Resource Fix
 
 A custom resource pack that adds in the missing block models that mods such as [PolyMC](https://github.com/TheEpicBlock/PolyMc) or [BlueMap](https://github.com/BlueMap-Minecraft/BlueMap) are unable to find.

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "WARNING: This script has not been tested on other devices, run at your own risk!"
+echo "If you want to run it anyway, open the script in a text editor and remove lines 3-5."
+exit 0
+
 #This script is a mess, but it works
 mkdir  ResourcePack
 mkdir  ResourcePack/assets
